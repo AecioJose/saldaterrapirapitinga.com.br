@@ -225,6 +225,10 @@ header.visible {
 #logo-welcome-overlay {
     width: 100px;
     height: auto;
+    filter: drop-shadow(-5px 10px 8px rgba(0, 0, 0, 0.9));
+}
+.welcome-text-overlay > p {
+    filter: drop-shadow(-3px 6px 8px rgba(0, 0, 0, 0.9));
 }
 
 /* Classe para animar o texto para fora da tela */
@@ -283,7 +287,7 @@ header.visible {
     background-image: url('assets/images/mobile/banner1.jpg');
 }
 .slide2 {
-    background-image: url('assets/images/mobile/banner2.jpg');
+    background-image: url('assets/images/mobile/banner2.png');
 }
 .slide3 {
     background-image: url('assets/images/mobile/banner3.jpg');
@@ -735,14 +739,14 @@ footer {
         background-image: url('assets/images/desktop/banner1.jpeg');
     }
     .slide2 {
-        background-image: url('assets/images/desktop/banner2.jpeg');
+        background-image: url('assets/images/desktop/banner2.png');
     }
     .slide3 {
         background-image: url('assets/images/desktop/banner3.jpeg');
     }
 
     .carousel {
-        height: 80vh; /* Altura do carousel em desktop */
+        height: 90vh; /* Altura do carousel em desktop */
     }
 
     /* Welcome Section */
