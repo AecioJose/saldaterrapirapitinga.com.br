@@ -13,6 +13,7 @@ body {
     background: #000000;
     color: #fff;
     overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+    overflow-y: hidden;
 }
 
 a {
@@ -229,6 +230,14 @@ header.visible {
 }
 .welcome-text-overlay > p {
     filter: drop-shadow(-3px 6px 8px rgba(0, 0, 0, 0.9));
+}
+.quebra-mobile {
+    display: inline;
+}
+#logofrase {
+    white-space: nowrap;
+    font-size: 0.8rem;
+    margin-top: 20px;
 }
 
 /* Classe para animar o texto para fora da tela */
@@ -732,6 +741,16 @@ footer {
     #logo-welcome-overlay {
         width: 150px;
         height: auto;
+    }
+    .welcome-text-overlay > p{
+        font-size: 1.6rem; /* Tamanho maior para desktop */
+    }
+    .quebra-mobile {
+        display: none;
+    }
+    #logofrase {
+        font-size: 1.1rem;
+        margin-top: 10px;
     }
 
     /* Carousel */

@@ -49,7 +49,6 @@ let virtualScrollPosition = 0;
 const textAnimationScrollLength = window.innerHeight * 0.7; // O texto anima por 70% da altura da viewport
 
 function animateWelcomeText() {
-  // Calcula o progresso da animação com base na posição de scroll virtual
   const translateYProgress = (virtualScrollPosition / textAnimationScrollLength) * 100;
   const opacityProgress = 1 - (virtualScrollPosition / textAnimationScrollLength);
 
@@ -58,33 +57,28 @@ function animateWelcomeText() {
 
   // Se a animação do texto estiver completa
   if (virtualScrollPosition >= textAnimationScrollLength) {
-    if (initialScrollLocked) { // Verifica se ainda está bloqueado para evitar chamadas repetidas
+    if (initialScrollLocked) {
       initialScrollLocked = false;
-      document.body.style.overflowY = 'auto'; // Libera a rolagem do body
-      welcomeTextOverlay.classList.add('hidden'); // Oculta o texto completamente
-      // IMPORTANTE: Não force o window.scrollTo aqui.
-      // A rolagem do usuário continuará de forma natural.
+      document.body.style.overflowY = 'auto'; // Agora, o JS REMOVE o bloqueio
+      welcomeTextOverlay.classList.add('hidden');
     }
   } else {
-    // Caso contrário, mantém o scroll do body bloqueado
-    document.body.style.overflowY = 'hidden';
-    welcomeTextOverlay.classList.remove('hidden'); // Garante que o texto esteja visível durante a animação
+    // Caso contrário, o scroll do body JÁ ESTÁ bloqueado pelo CSS
+    welcomeTextOverlay.classList.remove('hidden');
   }
 }
 
 // Intercepta eventos de rolagem quando o scroll inicial está bloqueado
 window.addEventListener('wheel', (e) => {
   if (initialScrollLocked) {
-    e.preventDefault(); // Impede a rolagem padrão da página
+    e.preventDefault();
 
-    // Ajusta a posição de scroll virtual com base na rolagem da roda do mouse
-    // Multiplicador ajustado para uma sensibilidade talvez mais natural
-    virtualScrollPosition += e.deltaY * 0.7; 
-    virtualScrollPosition = Math.max(0, Math.min(virtualScrollPosition, textAnimationScrollLength + 10)); // Adicionado um pequeno buffer
+    virtualScrollPosition += e.deltaY * 0.7;
+    virtualScrollPosition = Math.max(0, Math.min(virtualScrollPosition, textAnimationScrollLength + 10));
 
-    animateWelcomeText(); // Anima o texto com base na nova posição virtual
+    animateWelcomeText();
   }
-}, { passive: false }); // passive: false é crucial para permitir e.preventDefault()
+}, { passive: false });
 
 // Adiciona um listener para touchmove para dispositivos móveis
 let touchStartY = 0;
@@ -96,18 +90,17 @@ window.addEventListener('touchstart', (e) => {
 
 window.addEventListener('touchmove', (e) => {
   if (initialScrollLocked) {
-    e.preventDefault(); // Impede a rolagem padrão da página
+    e.preventDefault();
 
     const touchCurrentY = e.touches[0].clientY;
-    const deltaY = touchStartY - touchCurrentY; // Calcula a distância do arrasto
+    const deltaY = touchStartY - touchCurrentY;
 
-    // Multiplicador ajustado para uma sensibilidade talvez mais natural
-    virtualScrollPosition += deltaY * 1; 
-    virtualScrollPosition = Math.max(0, Math.min(virtualScrollPosition, textAnimationScrollLength + 10)); // Adicionado um pequeno buffer
+    virtualScrollPosition += deltaY * 1;
+    virtualScrollPosition = Math.max(0, Math.min(virtualScrollPosition, textAnimationScrollLength + 10));
 
-    animateWelcomeText(); // Anima o texto com base na nova posição virtual
+    animateWelcomeText();
 
-    touchStartY = touchCurrentY; // Atualiza a posição inicial do toque
+    touchStartY = touchCurrentY;
   }
 }, { passive: false });
 
@@ -122,18 +115,12 @@ window.addEventListener('scroll', () => {
             header.classList.remove('visible');
         }
     } else {
-        // Se ainda estiver no modo de scroll inicial, a navbar não deve aparecer
-        header.classList.remove('visible');
+        header.classList.remove('visible'); // Garante que a navbar não apareça se o scroll inicial estiver ativo
     }
 
     // Se o usuário voltar para o topo e o scroll estiver liberado, rebloquear e mostrar o texto
-    if (window.scrollY === 0 && !initialScrollLocked) {
-        initialScrollLocked = true;
-        virtualScrollPosition = 0; // Reseta a posição virtual
-        document.body.style.overflowY = 'hidden';
-        welcomeTextOverlay.classList.remove('hidden');
-        welcomeTextOverlay.style.transform = `translate(-50%, -50%)`;
-        welcomeTextOverlay.style.opacity = 1;
+    if (window.scrollY < 50 && !initialScrollLocked && virtualScrollPosition >= textAnimationScrollLength) {
+        resetInitialState();
     }
 });
 
@@ -157,20 +144,35 @@ function setVideoSource() {
 setVideoSource();
 window.addEventListener("resize", setVideoSource);
 
-// Ao carregar a página:
-window.addEventListener('load', () => {
-    // Garante que a página comece no topo
+// Função para resetar o estado inicial da página
+function resetInitialState() {
+    // Força o scroll para o topo imediata e incondicionalmente
     window.scrollTo(0, 0);
-    // Bloqueia a rolagem do body inicialmente
-    document.body.style.overflowY = 'hidden';
+
+    // O CSS já define overflow-y: hidden, então não precisamos setar aqui.
+    // Apenas garantimos que o estado JS esteja correto.
     initialScrollLocked = true;
-    virtualScrollPosition = 0; // Reseta a posição virtual
-    // Garante que o texto esteja visível e centralizado
+    virtualScrollPosition = 0;
+
     if (welcomeTextOverlay) {
         welcomeTextOverlay.style.transform = `translate(-50%, -50%)`;
         welcomeTextOverlay.style.opacity = 1;
         welcomeTextOverlay.classList.remove("hidden");
     }
-    // Anima o texto para o estado inicial
     animateWelcomeText();
+}
+
+// *** ALTERAÇÃO CHAVE AQUI: Reset no DOMContentLoaded apenas para garantir o estado inicial do JS ***
+document.addEventListener('DOMContentLoaded', () => {
+    // Garante que o scroll esteja no topo e o JS saiba que está travado
+    resetInitialState();
+});
+
+// Ao retornar à página (usando o botão de voltar do navegador)
+// `pageshow` é mais confiável que `DOMContentLoaded` para detecção de cache "back/forward"
+window.addEventListener('pageshow', (event) => {
+    // Verifica se a página foi restaurada do cache (bfcache)
+    if (event.persisted) {
+        resetInitialState();
+    }
 });
