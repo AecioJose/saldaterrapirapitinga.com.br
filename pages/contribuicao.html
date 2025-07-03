@@ -156,12 +156,15 @@
             background-color: #e0b800;
         }
 
+        /* IMAGENS FLUTUANTES: ESTILOS BASE, POSIÇÃO E TAMANHOS SERÃO CONTROLADOS PELO JS */
         .hero-image-wrapper {
             position: absolute;
             overflow: hidden;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-            z-index: 1;
+            z-index: 1; /* z-index base. A ordem do DOM e o JS controlarão a sobreposição */
+            /* Adicionado transition para suavizar o movimento das imagens */
+            transition: transform 0.6s ease, top 0.6s ease, left 0.6s ease, width 0.6s ease, height 0.6s ease;
         }
 
         .hero-image-wrapper img {
@@ -176,28 +179,9 @@
             transform: scale(1.05);
         }
 
-        /* Posicionamento específico para cada imagem (Desktop) */
-        /* Imagem 1 (topo esquerda) */
-        .hero-image-wrapper:nth-of-type(1) { top: 5%; left: 15%; width: 250px; height: 170px; transform: rotate(-5deg); }
-        /* Imagem 2 (centro direita, horizontal) */
-        .hero-image-wrapper:nth-of-type(2) { top: 16%; right: 5%; width: 300px; height: 200px; transform: rotate(8deg); }
-        /* Imagem 3 (abaixo do centro, esquerda) */
-        .hero-image-wrapper:nth-of-type(3) { bottom: 5%; left: 8%; width: 220px; height: 280px; transform: rotate(-3deg); }
-        /* Imagem 4 (meio direita, menor) */
-        .hero-image-wrapper:nth-of-type(4) { top: 55%; right: 10%; width: 180px; height: 150px; transform: translateY(-50%) rotate(10deg); }
-        /* Imagem 5 (inferior direita) */
-        .hero-image-wrapper:nth-of-type(5) { bottom: 5%; right: 3%; width: 280px; height: 200px; transform: rotate(-7deg); }
-        /* Imagem 6 (canto superior direito, pequena) */
-        .hero-image-wrapper:nth-of-type(6) { top: 5%; right: 30%; width: 150px; height: 100px; transform: rotate(3deg); }
-        /* Imagem 7 (meio esquerda, paisagem) */
-        .hero-image-wrapper:nth-of-type(7) { top: 35%; left: 10%; width: 280px; height: 190px; transform: rotate(12deg); }
-        /* Imagem 8 (quase centro, abaixo) */
-        .hero-image-wrapper:nth-of-type(8) { bottom: 5%; left: 30%; width: 200px; height: 250px; transform: rotate(-9deg); }
-        /* Imagem 9 (entre o texto e o canto inferior direito) */
-        .hero-image-wrapper:nth-of-type(9) { bottom: 10%; right: 30%; width: 190px; height: 120px; transform: rotate(5deg); }
-
-        .hero-image-wrapper:nth-of-type(10) { top: 10%; right: 50%; width: 190px; height: 120px; transform: rotate(5deg); }
-
+        /* REMOVIDO TODO O CSS DE .hero-image-wrapper:nth-of-type(n) daqui!
+           Esses estilos serão aplicados dinamicamente pelo JavaScript. */
+        
         /* Grid de imagens padrão (APENAS PARA MOBILE/TABLET) */
         .image-grid {
             display: none; /* Por padrão, o grid de imagens está oculto */
@@ -310,19 +294,14 @@
         }
 
         /* Responsividade */
+        /* Remova as media queries para nth-of-type, pois o JS irá gerenciar */
+        /*
         @media (max-width: 1200px) {
-            /* Ajustes para telas grandes que não são ultra-wide */
             .hero-image-wrapper:nth-of-type(1) { top: 3%; left: 3%; width: 220px; height: 160px; }
             .hero-image-wrapper:nth-of-type(2) { top: 15%; right: 3%; width: 280px; height: 180px; }
-            .hero-image-wrapper:nth-of-type(3) { bottom: 8%; left: 5%; width: 200px; height: 250px; }
-            .hero-image-wrapper:nth-of-type(4) { top: 55%; right: 7%; width: 160px; height: 130px; }
-            .hero-image-wrapper:nth-of-type(5) { bottom: 3%; right: 2%; width: 250px; height: 180px; }
-            .hero-image-wrapper:nth-of-type(6) { top: 1%; right: 20%; width: 130px; height: 90px; }
-            .hero-image-wrapper:nth-of-type(7) { top: 35%; left: 8%; width: 250px; height: 170px; }
-            .hero-image-wrapper:nth-of-type(8) { bottom: 15%; left: 25%; width: 180px; height: 220px; }
-            .hero-image-wrapper:nth-of-type(9) { bottom: 25%; right: 15%; width: 170px; height: 110px; }
-            .hero-image-wrapper:nth-of-type(10) { bottom: 25%; right: 50%; width: 170px; height: 110px; }
+            ...
         }
+        */
 
         @media (max-width: 1024px) {
             .hero-content h1 {
@@ -334,7 +313,7 @@
 
             /* Esconde as imagens flutuantes e mostra o grid normal */
             .hero-image-wrapper {
-                display: none;
+                display: none; /* Esconde as imagens flutuantes */
             }
             .image-grid {
                 display: grid; /* Mostra o grid de imagens */
@@ -486,6 +465,7 @@
             <div class="img-wrapper"><img src="../assets/images/both/oferta7.jpg" alt="Pastor lider do mercado solidario orando pelas pessoas"></div>
             <div class="img-wrapper"><img src="../assets/images/both/oferta8.jpg" alt="Criança cortando cabelo em projeto social da igreja"></div>
             <div class="img-wrapper"><img src="../assets/images/both/oferta9.jpg" alt="Criança feliz pegando macarrão no mercado solidario"></div>
+            <div class="img-wrapper"><img src="../assets/images/both/oferta10.jpg" alt="'Foto de senhora com um semblante triste"></div>
         </div>
     </section>
 
@@ -518,30 +498,147 @@
         document.addEventListener('DOMContentLoaded', () => {
             const menuToggle = document.querySelector('.menu-toggle');
             const navLinks = document.getElementById('nav-links');
+            const heroImageWrappers = Array.from(document.querySelectorAll('.hero-image-wrapper'));
 
+            // Função auxiliar para gerar um número aleatório em um intervalo (float)
+            function getRandomFloat(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+
+            // Função auxiliar para gerar um número inteiro aleatório (para o offset em pixels)
+            function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+
+            // Função para embaralhar um array (Fisher-Yates shuffle)
+            function shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+            }
+
+            // Definindo os "slots" de posição base para as imagens (em % do hero-section)
+            // Estes são os pontos de referência que as imagens embaralhadas ocuparão.
+            // Ajustei para usar apenas top/left para maior compatibilidade com translate.
+            // Os valores são em porcentagem, o que os torna responsivos ao tamanho do hero-section.
+            // Os "width" e "height" são em pixels para manter o tamanho desejado.
+            const desktopImageSlots = [
+                { top: '15%', left: '20%', width: '250px', height: '170px' },
+                { top: '18%', left: '70%', width: '300px', height: '200px' },
+                { top: '75%', left: '8%', width: '220px', height: '280px' },
+                { top: '55%', left: '80%', width: '180px', height: '150px' },
+                { top: '75%', left: '60%', width: '280px', height: '200px' },
+                { top: '15%', left: '55%', width: '150px', height: '100px' },
+                { top: '35%', left: '10%', width: '280px', height: '190px' },
+                { top: '75%', left: '30%', width: '200px', height: '250px' },
+                { top: '65%', left: '40%', width: '190px', height: '120px' },
+                { top: '12%', left: '40%', width: '190px', height: '120px' }
+            ];
+
+            // Aplica posições e rotações aleatórias às imagens flutuantes
+            function applyRandomStylesToHeroImages() {
+                const heroSection = document.querySelector('.hero-section');
+                if (!heroSection) return;
+
+                // 1. Embaralha a ordem dos elementos heroImageWrappers no DOM
+                const parent = heroImageWrappers[0].parentNode; // Pega o pai de um dos wrappers
+                shuffleArray(heroImageWrappers); // Embaralha o array de elementos
+                heroImageWrappers.forEach(wrapper => parent.appendChild(wrapper)); // Re-apenda cada wrapper ao pai na nova ordem
+                                                                                // Isso muda o z-index natural dos elementos
+
+                // 2. Embaralha os slots de posição para que cada imagem receba uma posição base diferente
+                const shuffledSlots = [...desktopImageSlots]; // Cria uma cópia para embaralhar
+                shuffleArray(shuffledSlots);
+
+                // 3. Aplica os estilos a cada wrapper
+                heroImageWrappers.forEach((wrapper, index) => {
+                    const slot = shuffledSlots[index]; // Pega um slot aleatório
+
+                    // Geração de rotação aleatória entre -10 e 10 graus
+                    const randomRotate = getRandomFloat(-10, 10);
+
+                    // Geração de desvio aleatório para X e Y (até 10px)
+                    const offsetX = getRandomInt(-10, 10); // Desvio em pixels
+                    const offsetY = getRandomInt(-10, 10); // Desvio em pixels
+
+                    // Aplica as posições base do slot (top, left, width, height)
+                    wrapper.style.top = slot.top;
+                    wrapper.style.left = slot.left;
+                    wrapper.style.width = slot.width;
+                    wrapper.style.height = slot.height;
+
+                    // Aplica o transform: translate para centralizar e adicionar o desvio, e a rotação
+                    wrapper.style.transform = `
+                        translate(calc(-50% + ${offsetX}px), calc(-50% + ${offsetY}px))
+                        rotate(${randomRotate}deg)
+                    `;
+                    // O z-index é controlado pela ordem do DOM agora, mas você pode definir explicitamente se quiser
+                    wrapper.style.zIndex = index + 1; // Garante que a ordem embaralhada afete a profundidade
+                });
+            }
+
+            // --- Media Query Handling para mostrar/esconder imagens flutuantes ---
+            const desktopMediaQuery = window.matchMedia('(min-width: 1025px)');
+
+            function handleDesktopImagesVisibility() {
+                if (desktopMediaQuery.matches) {
+                    // Se for desktop, mostra as imagens flutuantes e aplica os estilos aleatórios
+                    heroImageWrappers.forEach(wrapper => {
+                        wrapper.style.display = 'block'; // Garante que estejam visíveis
+                    });
+                    applyRandomStylesToHeroImages(); // Aplica posições e rotações randomizadas
+                } else {
+                    // Se não for desktop (mobile/tablet), reseta os estilos JS e esconde as imagens flutuantes
+                    heroImageWrappers.forEach(wrapper => {
+                        wrapper.style.transform = ''; // Limpa qualquer transform aplicado pelo JS
+                        wrapper.style.top = '';       // Limpa top
+                        wrapper.style.left = '';      // Limpa left
+                        wrapper.style.width = '';     // Limpa width
+                        wrapper.style.height = '';    // Limpa height
+                        wrapper.style.display = 'none'; // Esconde as imagens flutuantes (para o grid aparecer)
+                    });
+                }
+            }
+
+            // Executa na carga inicial
+            handleDesktopImagesVisibility();
+
+            // Escuta mudanças na media query (ex: redimensionar de desktop para mobile ou vice-versa)
+            desktopMediaQuery.addEventListener('change', handleDesktopImagesVisibility);
+            
+            // Re-randomiza as posições em desktop quando a janela é redimensionada
+            let resizeTimer;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(() => {
+                    if (desktopMediaQuery.matches) { // Só re-randomiza se ainda for desktop
+                        applyRandomStylesToHeroImages();
+                    }
+                }, 200); // Pequeno debounce para evitar execuções excessivas
+            });
+
+            // --- Código do Navbar e Smooth Scroll (mantido como estava, consolidado) ---
             menuToggle.addEventListener('click', () => {
                 navLinks.classList.toggle('active');
             });
 
-            // Smooth scroll for internal links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
 
                     const targetId = this.getAttribute('href');
                     const targetElement = document.querySelector(targetId);
-                    const navbarHeight = document.querySelector('.navbar').offsetHeight; // Get dynamic navbar height
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
 
-                    // Calculate position to scroll to, accounting for navbar height
                     const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-                    const offsetPosition = elementPosition - navbarHeight; // Subtract navbar height
+                    const offsetPosition = elementPosition - navbarHeight;
 
                     window.scrollTo({
                         top: offsetPosition,
                         behavior: "smooth"
                     });
 
-                    // Close mobile menu if open
                     if (navLinks.classList.contains('active')) {
                         navLinks.classList.remove('active');
                     }
