@@ -1,0 +1,906 @@
+/* ====================
+    BASE
+    ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif; /* Fonte principal para o corpo do texto */
+    background: #000000;
+    color: #fff;
+    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+}
+
+a {
+    color: #ffcd00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif; /* Mantendo Inter para títulos, mas pode ser ajustado */
+    font-weight: 700; /* Bold para títulos */
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 30px 0;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 8px auto 0 auto;
+    border-radius: 2px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem; /* Ajustado para melhor leitura em dispositivos móveis */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+.section {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 2rem 1rem; /* Padding responsivo para seções */
+}
+
+.section.dark {
+    background-color: #1c1c1c;
+}
+
+.section.light {
+    background-color: #3c3c3c;
+}
+
+/* ====================
+    HEADER
+    ==================== */
+header {
+    background: #000;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    flex-wrap: nowrap;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+header.visible {
+    transform: translateY(0);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(4px);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1dvw;
+}
+
+.logo {
+    height: 50px;
+    width: auto; /* Garante que a largura se ajuste à altura */
+}
+
+/* ====================
+    MENU TOGGLE (Mobile)
+    ==================== */
+.menu-toggle {
+    font-size: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1001;
+    user-select: none;
+    display: block; /* Visível por padrão em mobile */
+    font-family: 'Material Symbols Rounded', sans-serif; /* Usando a fonte de ícones */
+}
+
+.menu-toggle:hover {
+    transform: scale(1.2);
+}
+
+.menu-toggle::before {
+    content: "menu"; /* Ícone de menu da Material Symbols */
+}
+
+.menu-toggle.opened::before {
+    content: "close"; /* Ícone de fechar da Material Symbols */
+}
+
+/* ====================
+    NAVIGATION
+    ==================== */
+.nav-mobile {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-mobile.active {
+    right: 0;
+}
+
+.nav-mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.nav-mobile a {
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+}
+
+/* NAV DESKTOP (esconde por padrão, aparece em desktop) */
+.nav-desktop {
+    display: none;
+}
+
+.nav-desktop ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-desktop a {
+    font-size: 16px;
+}
+
+/* ====================
+    VIDEO HERO
+    ==================== */
+.video-hero {
+    position: relative; /* Alterado de absolute para relative */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.video-hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+/* Estilo para o texto de boas-vindas */
+.welcome-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    color: #ffffff; /* Cor do texto */
+    font-size: 3rem; /* Tamanho do texto para desktop */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 5; /* Garante que fique acima do vídeo e da vinheta */
+    opacity: 1;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out; /* Transição para a animação */
+    pointer-events: none; /* Permite interagir com o vídeo por trás */
+}
+#logo-welcome-overlay {
+    width: 100px;
+    height: auto;
+}
+
+/* Classe para animar o texto para fora da tela */
+.welcome-text-overlay.hidden {
+    transform: translate(-50%, -150%); /* Move para cima e para fora da tela */
+    opacity: 0;
+}
+
+.vignette-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%);
+}
+
+/* ====================
+    HERO / CAROUSEL
+    ==================== */
+.hero {
+    background: #000;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 88dvh; /* Altura do carousel ajustada */
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 300%; /* Apenas 3 slides */
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* Versão MOBILE padrão */
+.slide1 {
+    background-image: url('assets/images/mobile/banner1.jpg');
+}
+.slide2 {
+    background-image: url('assets/images/mobile/banner2.jpg');
+}
+.slide3 {
+    background-image: url('assets/images/mobile/banner3.jpg');
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.carousel-dots .dot.active {
+    opacity: 1;
+}
+
+/* ====================
+    WELCOME SECTION
+    ==================== */
+#welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Coluna em mobile */
+    padding: 5dvw 0;
+    align-items: center; /* Centraliza conteúdo em mobile */
+    gap: 20px; /* Espaçamento entre os containers */
+}
+
+.container-text-welcome, .container-img-welcome {
+    width: 90%; /* Largura maior em mobile */
+    padding: 0; /* Remove padding lateral em mobile */
+    text-align: center; /* Centraliza texto em mobile */
+}
+
+.container-text-welcome > h2 {
+    font-weight: bolder;
+    font-size: 1.1rem; /* Ajustado para mobile */
+    padding: 0;
+}
+
+.container-text-welcome > h2::after {
+    display: none;
+}
+
+.container-text-welcome > h1 {
+    font-weight: bolder;
+    font-size: 2rem; /* Ajustado para mobile */
+    margin: 20px 0;
+}
+
+.container-text-welcome > p {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#prName {
+    color: #ffcc00;
+    font-size: 0.9rem;
+    margin: 10px 0 20px 0;
+}
+
+.redesociaisPR {
+    display: flex;
+    justify-content: center; /* Centraliza ícones em mobile */
+    gap: 10px;
+}
+
+.iconeSocial {
+    width: 40px; /* Tamanho ajustado para ícones sociais */
+    height: 40px;
+    display: flex; /* Para centralizar o ícone dentro */
+    align-items: center;
+    justify-content: center;
+}
+.iconeSocial > i{
+    font-size: 2rem;
+}
+
+.social-icon {
+    font-size: 24px; /* Tamanho ajustado para ícones sociais */
+    color: #ffcd00;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* ====================
+    NOSSA AGENDA SECTION
+    ==================== */
+#cultos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-items: center; /* Centraliza conteúdo */
+}
+
+.conatainer-hero-cultos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 90%; /* Largura ajustada */
+}
+
+.container-cultos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza texto em mobile */
+    gap: 15px; /* Espaçamento ajustado */
+    text-align: center; /* Centraliza texto */
+}
+
+.container-cultos > p {
+    font-size: 1.1rem; /* Ajustado para mobile */
+}
+
+/* ====================
+    DEVOCIONAL SECTION
+    ==================== */
+#devocional {
+    padding-top: 30px;
+}
+
+#devocional p {
+    margin-bottom: 15px;
+}
+
+.devocional-hero-container {
+    width: 100%;
+    height: auto; /* Altura flexível */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.devocional-container {
+    width: 90%; /* Largura ajustada */
+    display: flex;
+    flex-direction: column; /* Coluna em mobile */
+    gap: 20px;
+    align-items: center; /* Centraliza os itens */
+}
+
+.cafecomfe {
+    background-color: #666; /* Cor temporária para os placeholders */
+    width: 80%; /* Largura maior em mobile */
+    height: 200px; /* Altura fixa para placeholders */
+    border-radius: 8px;
+}
+
+/* ====================
+    GRUPOS SECTION
+    ==================== */
+#grupos {
+    display: flex;
+    flex-direction: column; /* Coluna em mobile */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px 2rem 30px 2rem; /* Padding ajustado */
+    gap: 30px; /* Espaçamento entre os blocos */
+}
+
+.pgs-container {
+    width: 90%; /* Largura maior em mobile */
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza texto e botão */
+    gap: 20px; /* Espaçamento ajustado */
+    text-align: center; /* Centraliza texto */
+}
+
+.pgs-container > h3 {
+    font-size: 2.5rem; /* Ajustado para mobile */
+    text-align: center;
+    color: #ffcc00;
+    line-height: 1.2;
+}
+
+.pgs-container > p {
+    font-size: 1rem;
+}
+
+.pg-button {
+    background-color: #1c1c1c;
+    color: #ffcc00;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.1rem; /* Ajustado para mobile */
+    transition: transform 0.3s ease;
+}
+
+.pg-button:hover {
+    transform: scale(1.05);
+}
+
+.img-pgs-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-pgs-container > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+
+/* ====================
+    CONTATO SECTION
+    ==================== */
+#contato {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Coluna em mobile */
+    align-items: center; /* Centraliza os containers */
+    background-image: url("assets/images/both/contato.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 30px 1rem; /* Padding ajustado */
+    gap: 30px; /* Espaçamento entre os containers */
+}
+
+#contato::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+#contato > * {
+    position: relative;
+    z-index: 1;
+}
+
+.container-contatos, .container-redessociais {
+    width: 90%; /* Largura maior em mobile */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza conteúdo */
+    /* gap: 20px; */
+    padding: 20px 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+.button-whats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-whats-container > p{
+    font-size: 1.3rem;
+}
+
+.whatsapp-link {
+    color: #000000;
+    background-color: #ffcc00;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-link:hover {
+    background-color: #f3c81b;
+    transform: scale(1.05);
+}
+
+.sdt-icones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.ministerios-redessociais {
+    margin-top: 30px;
+}
+
+.subtitle-redessociais {
+    font-size: 1.1rem; /* Ajustado para mobile */
+    margin-bottom: 15px;
+}
+
+.redesociasministerio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.instaarroba {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.linkInstaMinisterios {
+    font-size: 0.95rem;
+}
+
+/* ====================
+    LOCALIZAÇÃO SECTION
+    ==================== */
+.maps-container {
+    height: 40dvh; /* Altura ajustada para mobile */
+    width: 90%; /* Largura do mapa */
+    margin: 0 auto; /* Centraliza o mapa */
+}
+
+.maps-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ====================
+    FOOTER
+    ==================== */
+footer {
+    background: #000;
+    padding: 30px 1rem 15px 1rem; /* Padding ajustado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column; /* Coluna em mobile */
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.container-img-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-img-footer > img {
+    height: auto;
+    width: 80px; /* Tamanho ajustado do logo no footer */
+    margin-bottom: 10px;
+}
+
+.container-endereco p {
+    font-size: 0.9rem; /* Ajustado para mobile */
+    margin: 5px 0;
+}
+
+#endereco {
+    font-weight: normal;
+    font-size: 0.85rem;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centraliza links */
+    text-align: center; /* Centraliza texto */
+}
+
+.container-footer > p {
+    font-weight: bolder;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.container-footer > a {
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.direitos-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Linha divisória */
+    margin-top: 20px;
+}
+
+.direitos-footer > p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* ====================
+    MEDIA QUERIES (DESKTOP)
+    ==================== */
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-mobile {
+        display: none !important;
+    }
+
+    /* Estilo para o texto de boas-vindas em desktop */
+    .welcome-text-overlay {
+        font-size: 6rem; /* Tamanho maior para desktop */
+    }
+    #logo-welcome-overlay {
+        width: 150px;
+        height: auto;
+    }
+
+    /* Carousel */
+    .slide1 {
+        background-image: url('assets/images/desktop/banner1.jpeg');
+    }
+    .slide2 {
+        background-image: url('assets/images/desktop/banner2.jpeg');
+    }
+    .slide3 {
+        background-image: url('assets/images/desktop/banner3.jpeg');
+    }
+
+    .carousel {
+        height: 80vh; /* Altura do carousel em desktop */
+    }
+
+    /* Welcome Section */
+    #welcome {
+        flex-direction: row; /* Volta para linha em desktop */
+        padding: 5dvw 0;
+    }
+
+    .container-text-welcome, .container-img-welcome {
+        width: 50%; /* Volta para 50% em desktop */
+        padding: 0 5dvw; /* Padding lateral em desktop */
+        text-align: start; /* Texto alinhado à esquerda */
+    }
+
+    .container-text-welcome > h2 {
+        font-size: 1rem;
+    }
+
+    .container-text-welcome > h1 {
+        font-size: 3rem; /* Tamanho maior para desktop */
+    }
+
+    .container-text-welcome > p, p {
+        font-size: 1.3rem; /* Tamanho maior para desktop */
+    }
+
+    .redesociaisPR {
+        justify-content: flex-start; /* Alinha ícones à esquerda */
+    }
+
+    /* Cultos Section */
+    .container-cultos {
+        align-items: flex-start; /* Alinha texto à esquerda */
+        text-align: start;
+    }
+
+    /* Devocional Section */
+    .devocional-hero-container {
+        height: 60dvh;
+    }
+
+    .devocional-container {
+        flex-direction: row; /* Volta para linha em desktop */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cafecomfe {
+        width: 20%; /* Largura menor em desktop */
+        height: 92%;
+    }
+
+    /* Grupos Section */
+    #grupos {
+        flex-direction: row; /* Volta para linha em desktop */
+        padding: 20px 5dvw 20px 10dvw;
+    }
+
+    .pgs-container {
+        width: 40%; /* Volta para 40% em desktop */
+        align-items: flex-start; /* Alinha texto e botão à esquerda */
+        text-align: start;
+    }
+
+    .pgs-container > h3 {
+        font-size: 3.5rem; /* Tamanho maior para desktop */
+        text-align: start;
+    }
+    .pgs-container > p {
+        font-size: 1.1rem;
+    }
+
+    .img-pgs-container > img {
+        width: auto;
+        height: 15dvw; /* Altura relativa para a imagem */
+        max-height: 350px; /* Limite para evitar que fique muito grande */
+    }
+
+    /* Contato Section */
+    #contato {
+        flex-direction: row; /* Volta para linha em desktop */
+        justify-content: space-evenly;
+        align-items: stretch; /* Estica os containers */
+    }
+
+    .container-contatos, .container-redessociais {
+        width: 40%; /* Volta para 40% em desktop */
+        text-align: start;
+    }
+
+    .sdt-icones {
+        justify-content: flex-start; /* Alinha ícones à esquerda */
+        gap: 30px;
+    }
+    .iconeSocial > i{
+        font-size: 2.1rem;
+    }
+
+    .ministerios-redessociais {
+        align-items: flex-start; /* Alinha ministérios à esquerda */
+    }
+
+    .redesociasministerio-container {
+        align-items: flex-start; /* Alinha links à esquerda */
+    }
+
+    .linkInstaMinisterios {
+        font-size: 1.1rem;
+    }
+
+    /* Localização Section */
+    .maps-container {
+        height: 60dvh; /* Altura original em desktop */
+        width: 90%;
+    }
+
+    /* Footer */
+    footer {
+        padding: 50px 0;
+    }
+
+    .footer-container {
+        flex-direction: row; /* Volta para linha em desktop */
+        justify-content: space-around;
+    }
+
+    .container-img-footer {
+        width: 25%;
+    }
+
+    .container-img-footer > img {
+        width: 100px;
+    }
+
+    .container-endereco p {
+        font-size: 1rem;
+    }
+
+    #endereco {
+        font-size: 0.9rem;
+    }
+
+    .container-footer {
+        align-items: flex-start; /* Alinha links à esquerda */
+        text-align: start;
+    }
+
+    .container-footer > p {
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+
+    .container-footer > a {
+        font-size: 1rem;
+    }
+
+    .direitos-footer {
+        justify-content: center;
+    }
+}

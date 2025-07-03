@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+
+    <title>Sal da Terra Pirapitinga</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="./assets/icons/Logo_SDT.png" alt="Logo Sal da Terra" class="logo" />
+            <h1>Sal da Terra Pirapitinga</h1>
+        </div>
+        <nav class="nav-desktop">
+            <ul>
+                <li><a href="#hero">Próximos Eventos</a></li>
+                <li><a href="/contribuicao">Contribuição</a></li>
+                <li><a href="#devocional">Café com fé</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle"></div>
+        <nav id="nav" class="nav-mobile">
+            <ul>
+                <li><a href="#hero">Próximos Eventos</a></li>
+                <li><a href="#welcome">Bem-vindo</a></li>
+                <li><a href="/contribuicao">Contribuição</a></li>
+                <li><a href="#devocional">Café com fé</a></li>
+                <li><a href="#grupos">Pequeno Grupo</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#footer">Pedidos de Oração</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="video-hero">
+        <video id="intro-video" autoplay muted loop playsinline>
+            <source src="" type="video/mp4" />
+            Seu navegador não suporta vídeos em HTML5.
+        </video>
+        <div class="welcome-text-overlay" id="welcomeTextOverlay">
+            <img id="logo-welcome-overlay" src="assets/icons/Logo_SDT.png" alt="Logo Sal da terra">
+            <p>Igreja Sal Da Terra Pirapitinga</p>
+        </div>
+        <div class="vignette-overlay"></div>
+    </section>
+
+    <section class="hero" id="hero">
+        <h2>Próximos Eventos</h2>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <a href="link1" class="carousel-slide slide1"></a>
+                <a href="link2" class="carousel-slide slide2"></a>
+                <a href="link3" class="carousel-slide slide3"></a>
+            </div>
+            <div class="carousel-dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section dark" id="welcome" style="background-color: #0a0a08;">
+        <div class="container-text-welcome">
+            <h2>BEM-VINDO À SUA CASA</h2>
+            <h1>Texto de impacto!</h1>
+            <p>Amamos pessoas, valorizamos pessoas, servimos pessoas, acreditamos nas pessoas.</p>
+            <p>É sobre servir, não ser visto. Servimos por algo maior!</p>
+            <p id="prName">Pr. Lúcio Camillo</p>
+            <div class="redesociaisPR">
+                <a style="margin-left: -10px;" href="https://www.instagram.com/saldaterrapirapitinga/" target="_blank" rel="noopener noreferrer" class="iconeSocial" id="instaPR">
+                    <i class="fab fa-instagram social-icon"></i>
+                </a>
+                <a href="https://www.facebook.com/saldaterrapirapitinga/?ref=_xav_ig_profile_page_web" target="_blank" rel="noopener noreferrer" class="iconeSocial">
+                    <i class="fab fa-facebook-f social-icon"></i>
+                </a>
+                <a href="https://www.youtube.com/@saldaterrapirapitinga/videos" target="_blank" rel="noopener noreferrer" class="iconeSocial">
+                    <i class="fab fa-youtube social-icon"></i>
+                </a>
+            </div>
+        </div>
+        <div class="container-img-welcome">
+            </div>
+    </section>
+
+    <section class="section dark" id="cultos" style="background-color: #0a0a08;">
+        <h2>Nossa Agenda</h2>
+        <div class="conatainer-hero-cultos">
+            <div class="container-cultos">
+                <p>Quinta | <strong>19h30</strong> | culto serie A ARMADURA DE DEUS</p>
+                <p>Sábado | <strong>19h</strong> | culto de JOVENS <a href="https://www.instagram.com/atosmov" target="_blank">@atosmov</a></p>
+                <p>Domingo | <strong>09h e 19h</strong> | culto da FAMILIA</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section dark" id="devocional">
+        <h2>Devocional Diário - Café com Fé</h2>
+        <p>Temos um encontro marcado de segunda a sexta,</p>
+        <p>com mensagens para você meditar durante o dia, não perca!</p>
+        <div class="devocional-hero-container">
+            <p>Confira os últimos episodios:</p>
+            <div class="devocional-container">
+                <div class="cafecomfe"></div>
+                <div class="cafecomfe"></div>
+                <div class="cafecomfe"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section light" id="grupos">
+        <div class="pgs-container">
+            <h3>Ainda não faz<br> parte de um<br> pequeno<br>grupo online?</h3>
+            <p>Pequenos Grupos online são momentos de comunhão, amizades e estudo profundo da Bíblia. Faça parte!</p>
+            <a href="https://wa.me/5534997971870?text=Ol%C3%A1%2C%20gra%C3%A7a%20e%20paz!%20Eu%20quero%20participar%20de%20um%20pequeno%20grupo%20online!" target="_blank" class="pg-button">QUERO PARTICIPAR!</a>
+        </div>
+        <div class="img-pgs-container">
+            <img src="/assets/images/both/pgonline.png" alt="Imagem de 12 pessoas se reunindo online no google meet">
+        </div>
+    </section>
+
+    <section class="section" id="contato">
+        <div class="container-contatos">
+            <h2>Contato</h2>
+            <div class="button-whats-container">
+                <p>Deseja falar conosco? Entre em contato através do WhatsApp</p>
+                <a href="https://wa.me/5534997971870" target="_blank" class="whatsapp-link">ENVIAR MENSAGEM</a>
+            </div>
+        </div>
+        <div class="container-redessociais">
+            <h2>Redes Sociais</h2>
+            <div class="sdt">
+                <div class="sdt-icones">
+                    <a href="https://www.instagram.com/saldaterrapirapitinga/" target="_blank" rel="noopener noreferrer" class="iconeSocial">
+                        <i class="fab fa-instagram social-icon"></i>
+                    </a>
+                    <a href="https://www.facebook.com/saldaterrapirapitinga/?ref=_xav_ig_profile_page_web" target="_blank" rel="noopener noreferrer" class="iconeSocial">
+                        <i class="fab fa-facebook-f social-icon"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@saldaterrapirapitinga/streams" target="_blank" rel="noopener noreferrer" class="iconeSocial">
+                        <i class="fab fa-youtube social-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ministerios-redessociais">
+                <h3 class="subtitle-redessociais">Acompanhe nossas atividades nas redes sociais:</h3>
+                <div class="redesociasministerio-container">
+                    <a href="https://www.instagram.com/salsocialp" target="_blank" class="linkInstaMinisterios">Ministério de Ações Sociais<span class="instaarroba">@salsocialp</span></a>
+                    <a href="https://www.instagram.com/filhasdorei.sdt" target="_blank" class="linkInstaMinisterios">Ministério de Mulheres<span class="instaarroba">@filhasdorei.sdt</span></a>
+                    <a href="https://www.instagram.com/atosmov" target="_blank" class="linkInstaMinisterios">Ministério de Jovens<span class="instaarroba">@atosmov</span></a>
+                    <a href="https://www.instagram.com/salkidss" target="_blank" class="linkInstaMinisterios">Ministério Infantil<span class="instaarroba">@salkidss</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section dark" id="localizacao">
+        <h2>Localização</h2>
+        <div class="maps-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.7518519214955!2d-49.486942724796904!3d-18.98656348219963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a231e871a35d83%3A0x9d15cf7b9d4ec5dd!2sIgreja%20-%20Sal%20da%20Terra%20Pirapitinga!5e0!3m2!1spt-BR!2sbr!4v1751420033846!5m2!1spt-BR!2sbr" width="90%" height="90%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="container-img-footer">
+                <img src="assets/icons/Logo_SDT.png" alt="Logo sal da sal da terra">
+                <div class="container-endereco">
+                    <p>Igreja Sal Da Terra Pirapitinga</p>
+                    <p id="endereco">Av. Jandiro Vilela de Freitas - Ribeiro, Ituiutaba - MG, 38307-846</p>
+                </div>
+            </div>
+            <div class="container-footer">
+                <a href="#hero">Próximos Eventos</a>
+                <a href="#welcome">Bem-vindo</a>
+                <a href="/contribuicao">Contribuição</a>
+                <a href="#devocional">Café com fé</a>
+                <a href="#grupos">Pequeno Grupo</a>
+                <a href="#contato">Contato</a>
+                <a href="#localizacao">Localização</a>
+            </div>
+            <div class="container-footer">
+                <p>LINKS ÚTEIS</p>
+                <a href="https://wa.me/5534997971870?text=Ol%C3%A1%2C%20eu%20gostaria%20de%20fazer%20um%20pedido%20de%20ora%C3%A7%C3%A3o">Pedidos de Oração</a>
+                <a href="/contribuicao">Dízimos e Ofertas</a>
+                <a href="https://wa.me/5534997971870" target="_blank">Contato</a>
+            </div>
+            <div class="container-footer">
+                <p>REDES SOCIAIS</p>
+                <a href="https://www.instagram.com/saldaterrapirapitinga/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/saldaterrapirapitinga/?ref=_xav_ig_profile_page_web" target="_blank">Facebook</a>
+                <a href="https://www.youtube.com/@saldaterrapirapitinga/streams" target="_blank">Youtube</a>
+            </div>
+        </div>
+        <div class="direitos-footer">
+            <p>© 2025 Sal Da Terra Pirapitinga</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
