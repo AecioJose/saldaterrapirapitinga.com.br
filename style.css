@@ -611,7 +611,7 @@ header.visible {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("assets/images/both/contato.jpeg");
+    background-image: url("assets/images/both/contato.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 40%;
