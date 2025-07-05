@@ -9,6 +9,10 @@ on:
     # Sábado e Domingo: 9h BRT (12h UTC) e 19h BRT (22h UTC)
     - cron: '0 12 * * 0,6'  # Domingo e Sábado, 12h UTC
     - cron: '0 22 * * 0,6'  # Domingo e Sábado, 22h UTC
+
+    # Cron pós-live para garantir atualização rápida do status "ao vivo"
+    - cron: '0 2 * * 1' # Segunda-feira 02:00 UTC (Domingo 23h BRT)
+    - cron: '0 2 * * 5' # Sexta-feira 02:00 UTC (Quinta 23h BRT)
   workflow_dispatch:
 
 jobs:
