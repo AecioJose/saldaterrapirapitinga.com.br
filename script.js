@@ -70,7 +70,7 @@ const sourceElement = videoElement.querySelector("source");
 function setVideoSource() {
     const isMobile = window.innerWidth <= 768;
     const src = isMobile
-        ? "assets/video/mobile/institucional.mp4"
+        ? "assets/video/mobile/institucionalmobile.mp4"
         : "assets/video/desktop/institucional.mp4";
 
     if (sourceElement.src !== location.origin + "/" + src) {
