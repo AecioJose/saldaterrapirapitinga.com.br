@@ -3,7 +3,9 @@ import requests
 import json
 import os
 from datetime import datetime
+# from dotenv import load_dotenv
 
+# load_dotenv()
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 CHANNEL_ID = "UCyZFrWaUraeSUnv1bQbmNow"
 
