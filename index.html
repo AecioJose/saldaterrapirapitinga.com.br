@@ -8,6 +8,7 @@
     <title>Sal da Terra Pirapitinga</title>
     <link rel="icon" href="./assets/icons/Logo_SDT.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="youtubeAPI.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -125,7 +126,32 @@
         </div>
     </section>
 
-    <section class="section dark" id="devocional">
+    <section class="section dark" id="recent-streams-section">
+        <h2>Últimas Transmissões</h2>
+        <div class="recent-streams-grid" id="recent-streams-container">
+            </div>
+    </section>
+
+    <section class="section dark" id="live-stream-section" style="display: none;">
+    <div class="live-stream-container">
+        <h2 class="live-indicator">AO VIVO AGORA!</h2>
+        <div class="live-video-card">
+            <a id="live-video-link" href="#" target="_blank" rel="noopener noreferrer">
+                <img id="live-video-thumbnail" src="" alt="Thumbnail da Transmissão Ao Vivo">
+                <div class="live-video-info">
+                    <p id="live-video-title"></p>
+                </div>
+            </a>
+        </div>
+        <a id="live-watch-button" href="#" target="_blank" rel="noopener noreferrer" class="call-to-action-button">
+            Assistir Ao Vivo
+        </a>
+    </div>
+</section>
+
+
+
+    <section class="section dark" id="devocional" style="display: none;">
         <h2>Devocional Diário - Café com Fé</h2>
         <p>Temos um encontro marcado de segunda a sexta,</p>
         <p>com mensagens para você meditar durante o dia, não perca!</p>
@@ -229,5 +255,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="youtubeAPI.js"></script>
 </body>
 </html>

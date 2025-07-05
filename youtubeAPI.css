@@ -1,0 +1,188 @@
+/* ====================
+    LIVE STREAM SECTION
+==================== */
+#live-stream-section {
+    background-color: #1c1c1c; /* Cor de fundo escura */
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.live-stream-container {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.live-indicator {
+    font-size: 1.8rem;
+    color: #ff0000; /* Vermelho para indicar "AO VIVO" */
+    font-weight: bold;
+    animation: pulse 1.5s infinite; /* Animação de pulso */
+    padding: 0; /* Remover padding padrão do h2 */
+}
+
+.live-indicator::after {
+    display: none; /* Remover a linha do h2 */
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.live-video-card {
+    width: 100%;
+    background-color: #0a0a08;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    margin: 0 auto; /* Centraliza o card */
+}
+
+.live-video-card:hover {
+    transform: translateY(-10px);
+}
+
+.live-video-card a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.live-video-card img {
+    width: 100%;
+    height: auto;
+    display: block; /* Garante que a imagem se comporta como um bloco */
+    object-fit: cover;
+    aspect-ratio: 16 / 9; /* Mantém a proporção de vídeo */
+}
+
+.live-video-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.live-video-info p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 0;
+    color: #ffffff;
+}
+
+#live-watch-button {
+    background-color: #ff0000; /* Botão vermelho para "AO VIVO" */
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex; /* Para centralizar o texto */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#live-watch-button:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}
+
+/* ====================
+    RECENT STREAMS SECTION
+==================== */
+#recent-streams-section {
+    background-color: #0a0a08; /* Outra cor de fundo escura para diferenciar */
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#recent-streams-section h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.recent-streams-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna no mobile */
+    gap: 25px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.recent-video-card {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.recent-video-card:hover {
+    transform: translateY(-10px);
+}
+
+.recent-video-card a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.recent-video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 16 / 9; /* Mantém a proporção de vídeo */
+}
+
+.recent-video-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.recent-video-info p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    color: #ffffffd3;
+    filter: drop-shadow(-3px 6px 8px rgba(0, 0, 0, 0.9));
+}
+
+/* ====================
+    ANIMATIONS FOR RECENT STREAMS (Controladas pelo JS)
+==================== */
+.recent-video-card {
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    will-change: transform, opacity;
+}
+
+.recent-video-card.slide-from-left {
+    transform: translateX(-50px);
+}
+
+.recent-video-card.slide-from-right {
+    /* Começa um pouco à direita da sua posição final, mas visível para o observer */
+    transform: translateX(50px);
+}
+
+/* Estado final (visível e na posição original) */
+.recent-video-card.is-visible {
+    opacity: 1;
+    transform: translateX(0); /* Volta para a posição original */
+}
