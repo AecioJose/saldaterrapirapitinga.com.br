@@ -186,3 +186,38 @@
     opacity: 1;
     transform: translateX(0); /* Volta para a posição original */
 }
+
+
+/* ====================
+    MEDIA QUERIES (DESKTOP)
+==================== */
+@media (min-width: 769px) {
+    /* ... Seu código para LIVE STREAM SECTION permanece o mesmo ... */
+
+    #recent-streams-section {
+        padding: 4rem 2rem;
+    }
+
+    #recent-streams-section h2 {
+        margin-bottom: 30px; /* Mais espaço para o título no desktop */
+    }
+
+    .recent-streams-grid {
+        /* ESSENCIAL: Duas colunas para desktop */
+        display: grid; /* Garante que é grid */
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas iguais */
+        gap: 30px; /* Espaçamento entre os cards */
+        /* Remova ou certifique-se de que não há flexbox rules aqui que anulem o grid */
+        justify-items: unset; /* Remove a centralização de itens do mobile */
+    }
+
+    .recent-video-card {
+        /* No desktop, deixe o grid controlar a largura. */
+        width: auto;
+        max-width: none;
+    }
+
+    .recent-video-info p {
+        font-size: 1.1rem;
+    }
+}

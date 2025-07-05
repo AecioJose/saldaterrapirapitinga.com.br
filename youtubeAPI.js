@@ -2,7 +2,7 @@
 // Função para buscar dados do JSON local
 async function fetchYoutubeData() {
     try {
-        const response = await fetch('api/youtube.json');
+        const response = await fetch('./api/youtube.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
