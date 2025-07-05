@@ -2,7 +2,13 @@ name: Atualizar vídeos do YouTube
 
 on:
   schedule:
-    - cron: '0 4,16 * * *'  # 04h e 16h UTC
+    # Seg a Sex: 7h30 BRT (10h30 UTC) e 19h30 BRT (22h30 UTC)
+    - cron: '10 10 * * 1-5' # Segunda a Sexta, 10h30 UTC
+    - cron: '30 22 * * 1-5' # Segunda a Sexta, 22h30 UTC
+
+    # Sábado e Domingo: 9h BRT (12h UTC) e 19h BRT (22h UTC)
+    - cron: '0 12 * * 0,6'  # Domingo e Sábado, 12h UTC
+    - cron: '0 22 * * 0,6'  # Domingo e Sábado, 22h UTC
   workflow_dispatch:
 
 jobs:
@@ -31,5 +37,5 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add api/youtube.json
-        git commit -m "Atualiza vídeos do YouTube automaticamente"
+        git commit -m "Atualiza vídeos do YouTube automaticamente" || echo "Nenhuma alteração para commit"
         git push
