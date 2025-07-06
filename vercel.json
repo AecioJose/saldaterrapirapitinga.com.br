@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/youtube.json", "destination": "/api/youtube.json" }
-  ]
-}
