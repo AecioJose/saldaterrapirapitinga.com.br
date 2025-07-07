@@ -2,7 +2,7 @@
     LIVE STREAM SECTION
 ==================== */
 #live-stream-section {
-    background-color: #1c1c1c; /* Cor de fundo escura */
+    background-color: #1c1c1c;
     padding: 3rem 1rem;
     display: flex;
     flex-direction: column;
@@ -24,12 +24,12 @@
     font-size: 1.8rem;
     color: #ff0000; /* Vermelho para indicar "AO VIVO" */
     font-weight: bold;
-    animation: pulse 1.5s infinite; /* Animação de pulso */
-    padding: 0; /* Remover padding padrão do h2 */
+    animation: pulse 1.5s infinite;
+    padding: 0;
 }
 
 .live-indicator::after {
-    display: none; /* Remover a linha do h2 */
+    display: none;
 }
 
 @keyframes pulse {
@@ -45,7 +45,7 @@
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
-    margin: 0 auto; /* Centraliza o card */
+    margin: 0 auto;
 }
 
 .live-video-card:hover {
@@ -61,9 +61,9 @@
 .live-video-card img {
     width: 100%;
     height: auto;
-    display: block; /* Garante que a imagem se comporta como um bloco */
+    display: block;
     object-fit: cover;
-    aspect-ratio: 16 / 9; /* Mantém a proporção de vídeo */
+    aspect-ratio: 16 / 9;
 }
 
 .live-video-info {
@@ -88,7 +88,7 @@
     font-weight: bold;
     text-transform: uppercase;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    display: inline-flex; /* Para centralizar o texto */
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
@@ -103,7 +103,7 @@
     RECENT STREAMS SECTION
 ==================== */
 #recent-streams-section {
-    background-color: #0a0a08; /* Outra cor de fundo escura para diferenciar */
+    background-color: #0a0a08;
     padding: 3rem 1rem;
     display: flex;
     flex-direction: column;
@@ -118,7 +118,7 @@
 
 .recent-streams-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Uma coluna no mobile */
+    grid-template-columns: 1fr;
     gap: 25px;
     width: 90%;
     max-width: 1000px;
@@ -146,7 +146,7 @@
     height: auto;
     display: block;
     object-fit: cover;
-    aspect-ratio: 16 / 9; /* Mantém a proporção de vídeo */
+    aspect-ratio: 16 / 9;
 }
 
 .recent-video-info {
@@ -168,23 +168,21 @@
 ==================== */
 .recent-video-card {
     opacity: 0;
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 1s ease-out, transform 1s ease-out;
     will-change: transform, opacity;
 }
 
 .recent-video-card.slide-from-left {
-    transform: translateX(-50px);
+    transform: translateX(-400px);
 }
 
 .recent-video-card.slide-from-right {
-    /* Começa um pouco à direita da sua posição final, mas visível para o observer */
-    transform: translateX(50px);
+    transform: translateX(400px);
 }
 
-/* Estado final (visível e na posição original) */
 .recent-video-card.is-visible {
     opacity: 1;
-    transform: translateX(0); /* Volta para a posição original */
+    transform: translateX(0px);
 }
 
 
@@ -192,27 +190,23 @@
     MEDIA QUERIES (DESKTOP)
 ==================== */
 @media (min-width: 769px) {
-    /* ... Seu código para LIVE STREAM SECTION permanece o mesmo ... */
 
     #recent-streams-section {
         padding: 4rem 2rem;
     }
 
     #recent-streams-section h2 {
-        margin-bottom: 30px; /* Mais espaço para o título no desktop */
+        margin-bottom: 30px;
     }
 
     .recent-streams-grid {
-        /* ESSENCIAL: Duas colunas para desktop */
-        display: grid; /* Garante que é grid */
-        grid-template-columns: repeat(2, 1fr); /* Duas colunas iguais */
-        gap: 30px; /* Espaçamento entre os cards */
-        /* Remova ou certifique-se de que não há flexbox rules aqui que anulem o grid */
-        justify-items: unset; /* Remove a centralização de itens do mobile */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 30px; 
+        justify-items: unset;
     }
 
     .recent-video-card {
-        /* No desktop, deixe o grid controlar a largura. */
         width: auto;
         max-width: none;
     }

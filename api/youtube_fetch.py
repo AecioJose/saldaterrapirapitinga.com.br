@@ -70,7 +70,7 @@ def main():
         "current_live_stream": fetch_current_live_stream()
     }
 
-    with open("/youtube.json", "w", encoding="utf-8") as f:
+    with open("youtube.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
