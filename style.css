@@ -303,13 +303,13 @@ header.visible {
 }
 
 .slide1 {
-    background-image: url('assets/images/mobile/banner3.jpg');
+    background-image: url('assets/images/mobile/atos.webp');
 }
 .slide2 {
-    background-image: url('assets/images/mobile/criancas.jpeg');
+    background-image: url('assets/images/mobile/criancas.webp');
 }
 .slide3 {
-    background-image: url('assets/images/mobile/banner3.jpg');
+    background-image: url('assets/images/mobile/caipirao.webp');
 }
 
 /* Estilos para o Glassmorphism */
@@ -422,11 +422,19 @@ header.visible {
     width: 90%;
     padding: 0;
     text-align: center;
+    text-overflow: hidden;
 }
+
+.container-img-welcome > img {
+    width: 100%;
+    box-shadow: -3px 3px 25px rgba(100, 100, 255, 0.1);
+    border-radius: 10px;
+}
+
 
 .container-text-welcome > h2 {
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding: 0;
 }
 
@@ -436,7 +444,7 @@ header.visible {
 
 .container-text-welcome > h1 {
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin: 20px 0;
 }
 
@@ -835,13 +843,13 @@ footer {
     }
 
     .slide1 {
-        background-image: url('assets/images/desktop/banner2.png')
+        background-image: url('assets/images/desktop/atos.webp')
     }
     .slide2 {
-        background-image: url('assets/images/desktop/criancas.jpeg');
+        background-image: url('assets/images/desktop/criancas.webp');
     }
     .slide3 {
-        background-image: url('assets/images/desktop/banner3.jpeg');
+        background-image: url('assets/images/desktop/caipirao.webp');
     }
 
     .carousel {
@@ -876,12 +884,26 @@ footer {
     #welcome {
         flex-direction: row;
         padding: 5dvw 0;
+        justify-content: center;
     }
 
     .container-text-welcome, .container-img-welcome {
-        width: 50%;
+        width: 60%;
+        max-width: 960px;
         padding: 0 5dvw;
         text-align: start;
+    }
+
+    .container-img-welcome {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-img-welcome > img {
+        max-height: 45dvh;
+        width: auto;
     }
 
     .container-text-welcome > h2 {
