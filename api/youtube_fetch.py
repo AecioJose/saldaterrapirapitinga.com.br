@@ -1,11 +1,17 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta, timezone # Importa timezone e timedelta
 import re
 
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 CHANNEL_ID = "UCyZFrWaUraeSUnv1bQbmNow"
+
+# Define o fuso horário de Brasília (BRT = UTC-3)
+# O YouTube retorna a data em UTC. Precisamos ajustar para o fuso local (BRT) antes de checar o dia da semana.
+BRT_OFFSET = timedelta(hours=-3)
+BRT_TIMEZONE = timezone(BRT_OFFSET)
+
 
 def fetch_latest_uploaded_videos():
     url = f"https://www.googleapis.com/youtube/v3/search?key={API_KEY}&channelId={CHANNEL_ID}&part=snippet&order=date&maxResults=4&type=video"
@@ -27,23 +33,21 @@ def fetch_latest_uploaded_videos():
     return videos
 
 def fetch_latest_completed_live_streams():
-    url = f"https://www.googleapis.com/youtube/v3/search?key={API_KEY}&channelId={CHANNEL_ID}&part=snippet&eventType=completed&type=video&order=date&maxResults=15" 
+    url = f"https://www.googleapis.com/youtube/v3/search?key={API_KEY}&channelId={CHANNEL_ID}&part=snippet&eventType=completed&type=video&order=date&maxResults=4"
     response = requests.get(url)
     data = response.json()
 
     all_completed_streams = []
     thursday_series_name = None
     
-    # Regex ajustada para pegar tudo até o primeiro '|'
-    # O (.*?) captura o nome da série de forma não-gananciosa
-    # \s*\| captura o pipe e quaisquer espaços em volta
+    # Regex para pegar tudo até o primeiro '|'
     series_name_pattern = re.compile(r"^(.*?)\s*\|", re.IGNORECASE)
 
     for item in data.get("items", []):
         video_id = item["id"]["videoId"]
         snippet = item["snippet"]
         title = snippet["title"]
-        published_at_str = snippet["publishedAt"]
+        published_at_str = snippet["publishTime"]
 
         all_completed_streams.append({
             "title": title,
@@ -53,15 +57,18 @@ def fetch_latest_completed_live_streams():
 
         if thursday_series_name is None:
             try:
-                published_datetime = datetime.fromisoformat(published_at_str.replace('Z', '+00:00'))
+                # Converte a string de data/hora para um objeto datetime em UTC
+                published_datetime_utc = datetime.fromisoformat(published_at_str.replace('Z', '+00:00'))
                 
-                # Verifica se o dia da semana é quinta-feira (3)
-                if published_datetime.weekday() == 3:
+                # Converte a data/hora UTC para o fuso horário BRT
+                published_datetime_brt = published_datetime_utc.astimezone(BRT_TIMEZONE)
+                
+                # Verifica o dia da semana com base no fuso horário BRT (3 = quinta-feira)
+                if published_datetime_brt.weekday() == 3:
                     match = series_name_pattern.match(title)
                     if match:
                         extracted_series = match.group(1).strip()
                         
-                        # Garante que não é "CULTO DA FAMÍLIA"
                         if "CULTO DA FAMÍLIA" not in extracted_series.upper():
                             thursday_series_name = extracted_series
             except ValueError:
@@ -88,7 +95,7 @@ def main():
     latest_completed_live_streams, thursday_series_raw = fetch_latest_completed_live_streams()
     
     if thursday_series_raw:
-        thursday_series_display = f"Culto Série: {thursday_series_raw.upper()}"
+        thursday_series_display = f"Culto Série {thursday_series_raw.upper()}"
     else:
         thursday_series_display = "Todo mês uma série nova"
     
