@@ -34,7 +34,10 @@ def fetch_latest_completed_live_streams():
     all_completed_streams = []
     thursday_series_name = None
     
-    thursday_pattern = re.compile(r"^(.*?)\s*\|\s*MINISTRAÇÃO\s*\|\s*[^|]+\s*\|\s*19:30\s*\|\s*.*?\s*$", re.IGNORECASE)
+    # Regex ajustada para pegar tudo até o primeiro '|'
+    # O (.*?) captura o nome da série de forma não-gananciosa
+    # \s*\| captura o pipe e quaisquer espaços em volta
+    series_name_pattern = re.compile(r"^(.*?)\s*\|", re.IGNORECASE)
 
     for item in data.get("items", []):
         video_id = item["id"]["videoId"]
@@ -52,11 +55,13 @@ def fetch_latest_completed_live_streams():
             try:
                 published_datetime = datetime.fromisoformat(published_at_str.replace('Z', '+00:00'))
                 
+                # Verifica se o dia da semana é quinta-feira (3)
                 if published_datetime.weekday() == 3:
-                    match = thursday_pattern.match(title)
+                    match = series_name_pattern.match(title)
                     if match:
                         extracted_series = match.group(1).strip()
                         
+                        # Garante que não é "CULTO DA FAMÍLIA"
                         if "CULTO DA FAMÍLIA" not in extracted_series.upper():
                             thursday_series_name = extracted_series
             except ValueError:
@@ -83,7 +88,7 @@ def main():
     latest_completed_live_streams, thursday_series_raw = fetch_latest_completed_live_streams()
     
     if thursday_series_raw:
-        thursday_series_display = f"Culto Série {thursday_series_raw.upper()}"
+        thursday_series_display = f"Culto Série: {thursday_series_raw.upper()}"
     else:
         thursday_series_display = "Todo mês uma série nova"
     
