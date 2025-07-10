@@ -7,11 +7,8 @@ toggle.addEventListener("click", () => {
     toggle.classList.toggle("opened");
 });
 
-// NOVO CÓDIGO: Fechar menu ao clicar fora
+
 document.addEventListener("click", (event) => {
-    // Verifica se o clique não foi dentro da navegação (.nav-mobile)
-    // E se o clique não foi no próprio botão de toggle (.menu-toggle)
-    // E se o menu está ativo (aberto)
     if (
         !nav.contains(event.target) &&
         !toggle.contains(event.target) &&
@@ -23,7 +20,7 @@ document.addEventListener("click", (event) => {
 });
 
 
-// Seu código do carrossel (sem alterações)
+
 let currentIndex = 0;
 const slides = document.querySelectorAll(".carousel-slide");
 const dots = document.querySelectorAll(".dot");
@@ -50,7 +47,7 @@ dots.forEach((dot, i) =>
 
 setInterval(nextSlide, 5000);
 
-// Seu código para mostrar navbar ao rolar (sem alterações)
+
 const header = document.querySelector("header");
 
 window.addEventListener('scroll', () => {
@@ -63,7 +60,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-// Seu código para trocar vídeo conforme tamanho da tela (sem alterações)
+
 const videoElement = document.getElementById("intro-video");
 const sourceElement = videoElement.querySelector("source");
 
@@ -82,7 +79,7 @@ function setVideoSource() {
 setVideoSource();
 window.addEventListener("resize", setVideoSource);
 
-// Seu código para opacidade do texto de boas-vindas (sem alterações)
+
 const welcomeTextOverlay = document.getElementById("welcomeTextOverlay");
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
@@ -110,14 +107,3 @@ window.addEventListener('scroll', () => {
     }
 });
 
-
-// Seu código para ao carregar a página (sem alterações)
-window.addEventListener('load', () => {
-    window.scrollTo(0, 0);
-});
-
-window.addEventListener('pageshow', (event) => {
-    if (event.persisted) {
-        window.scrollTo(0, 0);
-    }
-});

@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -273,6 +277,7 @@ header.visible {
     flex-direction: column;
     align-items: center;
     margin-top: 50vh;
+    scroll-margin-top: 40px;
 }
 
 .carousel {
@@ -1046,4 +1051,15 @@ footer {
     .direitos-footer {
         justify-content: center;
     }
+
+    #contato-spacer {
+        scroll-margin-top: 50px;
+    }
 }
+
+.scroll-spacer {
+  height: 100px;
+  margin-top: -100px;
+  scroll-margin-top: 10px;
+}
+
