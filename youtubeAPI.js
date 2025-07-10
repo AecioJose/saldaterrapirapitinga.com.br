@@ -33,6 +33,11 @@ function displayLiveStream(data) {
     }
 }
 
+//Função para titulo da serie de wuinta
+function displayThursdaySerie(data){
+    document.getElementById("quintaSerie").innerText = data.ThursdaySeries;
+}
+
 // Função para exibir as últimas transmissões
 function displayRecentStreams(data) {
     const recentStreamsContainer = document.getElementById("recent-streams-container");
@@ -90,6 +95,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const youtubeData = await fetchYoutubeData();
     if (youtubeData) {
         displayLiveStream(youtubeData);
+        displayThursdaySerie(youtubeData);
         displayRecentStreams(youtubeData);
     }
 });
