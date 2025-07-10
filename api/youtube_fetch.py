@@ -17,7 +17,6 @@ def fetch_latest_uploaded_videos():
         snippet = item["snippet"]
         title = snippet["title"].upper()
         
-        # A API pode retornar 'live', 'upcoming' ou 'none'
         if title.startswith("CAFÉ COM FÉ") and item["snippet"]["liveBroadcastContent"] == "none":
             video_id = item["id"]["videoId"]
             videos.append({
@@ -35,8 +34,7 @@ def fetch_latest_completed_live_streams():
     all_completed_streams = []
     thursday_series_name = None
     
-    
-    thursday_pattern = re.compile(r"^(.*?)\s*\|\s*MINISTRAÇÃO\s*\|\s*[^|]+\s*\|\s*19:30\s*\|\s*\d{1,2}\s+DE\s+[A-ZÀ-Ú]+\s+DE\s+\d{4}$", re.IGNORECASE)
+    thursday_pattern = re.compile(r"^(.*?)\s*\|\s*MINISTRAÇÃO\s*\|\s*[^|]+\s*\|\s*19:30\s*\|.*$", re.IGNORECASE)
 
     for item in data.get("items", []):
         video_id = item["id"]["videoId"]
@@ -44,22 +42,17 @@ def fetch_latest_completed_live_streams():
         title = snippet["title"]
         published_at_str = snippet["publishedAt"]
 
-
         all_completed_streams.append({
             "title": title,
             "thumbnail": snippet["thumbnails"]["high"]["url"],
             "url": f"https://www.youtube.com/watch?v={video_id}"
         })
 
-        # Tenta extrair o nome da série de quinta-feira, se ainda não foi encontrado
         if thursday_series_name is None:
             try:
-                
                 published_datetime = datetime.fromisoformat(published_at_str.replace('Z', '+00:00'))
                 
-               
-               
-                if published_datetime.weekday() == 3: # 3 representa quinta-feira
+                if published_datetime.weekday() == 3:
                     match = thursday_pattern.match(title)
                     if match:
                         extracted_series = match.group(1).strip()
@@ -68,7 +61,6 @@ def fetch_latest_completed_live_streams():
                             thursday_series_name = extracted_series
             except ValueError:
                 pass
-
 
     return all_completed_streams[:3], thursday_series_name
 
@@ -83,13 +75,12 @@ def fetch_current_live_stream():
     item = items[0]
     return {
         "title": item["snippet"]["title"],
-        "thumbnail": item["thumbnails"]["high"]["url"],
+        "thumbnail": item["snippet"]["thumbnails"]["high"]["url"],
         "url": f"https://www.youtube.com/watch?v={item['id']['videoId']}"
     }
 
 def main():
     latest_completed_live_streams, thursday_series_raw = fetch_latest_completed_live_streams()
-    
     
     if thursday_series_raw:
         thursday_series_display = f"Culto Série {thursday_series_raw.upper()}"
