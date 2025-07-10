@@ -63,7 +63,9 @@ def fetch_latest_completed_live_streams():
                 published_datetime = datetime.fromisoformat(published_at_str.replace('Z', '+00:00'))
                 
                 # Verifica se o dia da semana é quinta-feira (weekday() retorna 0 para segunda, 3 para quinta)
-                if published_datetime.weekday() == 3: # 3 representa quinta-feira
+                # E também verifica se a live tem menos de 8 dias (aproximadamente 1 semana e 1 dia)
+                # Isso ajuda a focar nas lives mais recentes de quinta-feira
+                if published_datetime.weekday() == 3 and (datetime.utcnow().replace(tzinfo=None) - published_datetime.replace(tzinfo=None)).days < 8:
                     match = thursday_pattern.match(title)
                     if match:
                         extracted_series = match.group(1).strip()
@@ -93,14 +95,20 @@ def fetch_current_live_stream():
     }
 
 def main():
-    latest_completed_live_streams, thursday_series = fetch_latest_completed_live_streams()
+    latest_completed_live_streams, thursday_series_raw = fetch_latest_completed_live_streams()
+    
+    
+    if thursday_series_raw:
+        thursday_series_display = f"Culto Série {thursday_series_raw.upper()}"
+    else:
+        thursday_series_display = "Todo mês uma série nova"
     
     result = {
-        "ThursdaySeries": thursday_series,
+        "ThursdaySeries": thursday_series_display,
         "last_updated": datetime.utcnow().isoformat(),
         "latest_videos": fetch_latest_uploaded_videos(),
         "latest_completed_live_streams": latest_completed_live_streams,
-        "current_live_stream": fetch_current_live_stream()
+        "current_live_stream": fetch_current_live_stream()        
     }
 
     with open("youtube.json", "w", encoding="utf-8") as f:
