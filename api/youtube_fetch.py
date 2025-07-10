@@ -34,7 +34,7 @@ def fetch_latest_completed_live_streams():
     all_completed_streams = []
     thursday_series_name = None
     
-    thursday_pattern = re.compile(r"^(.*?)\s*\|\s*MINISTRAÇÃO\s*\|\s*[^|]+\s*\|\s*19:30\s*\|.*$", re.IGNORECASE)
+    thursday_pattern = re.compile(r"^(.*?)\s*\|\s*MINISTRAÇÃO\s*\|\s*[^|]+\s*\|\s*19:30\s*\|\s*.*?\s*$", re.IGNORECASE)
 
     for item in data.get("items", []):
         video_id = item["id"]["videoId"]
