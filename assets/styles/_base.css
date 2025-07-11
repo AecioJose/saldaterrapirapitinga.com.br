@@ -1,0 +1,143 @@
+/* ====================
+   BASE
+==================== */
+
+:root {
+    /* Cores */
+    --primary-color: #ffcd00; /* Cor amarela principal */
+    --secondary-color: #f3c81b; /* Amarelo um pouco mais claro para hover */
+    --dark-bg-color: #000000;
+    --darker-bg-color: #0f0a01;
+    --medium-dark-bg-color: #111;
+    --light-dark-bg-color: #282828;
+    --white-color: #fff;
+    --black-color: #000;
+    --red-color: #ff0000;
+    --dark-red-color: #cc0000;
+    --shadow-color-dark: rgba(0, 0, 0, 0.7);
+    --shadow-color-medium: rgba(0, 0, 0, 0.5);
+    --shadow-color-light: rgba(0, 0, 0, 0.3);
+    --shadow-color-blue: rgba(100, 100, 255, 0.1);
+    --border-color-light: rgba(255, 255, 255, 1);
+    --border-color-dark: rgba(255, 255, 255, 0.1);
+    --blur-bg-color: rgba(0, 0, 0, 0.9);
+    --blur-bg-color-contact: rgba(0, 0, 0, 0.65);
+    --card-bg-color: #1b1b1b;
+    --card-bg-color-recent: #191919;
+    --text-color-light-opacity: #ffffffd3;
+    --text-color-medium-dark: #1c1c1c;--buttonSlideBanner-border: #00000070;
+    --buttonSlideBanner-background: rgb(60,60,60, 0.985);
+    --buttonSlideBanner-arrow: #0f0a01;
+    
+
+
+
+    /* Fontes */
+    --main-font: 'Inter', sans-serif;
+    --icon-font: 'Material Symbols Rounded', sans-serif;
+    --h1-font-size-mobile: 1.4rem;
+    --h2-font-size-mobile: 2rem;
+    --h3-font-size-mobile: 1.5rem;
+    --p-font-size-mobile: 1rem;
+    --small-text-size: 0.6rem;
+    --normal-text-size: 0.9rem;
+    --medium-text-size: 1.1rem;
+    --large-text-size: 1.3rem;
+
+    /* Espaçamentos e Medidas */
+    --padding-section-mobile: 2rem 1rem;
+    --padding-header: 8px 15px;
+    --header-height: 50px; /* Altura do logo */
+    --nav-mobile-width: 300px;
+    --header-transition-duration: 0.6s;
+    --carousel-height-mobile: 88dvh;
+    --carousel-slide-padding-bottom: 0.8rem;
+    --destaque-banner-padding: 20px 20px 35px 20px;
+    --button-padding-small: 10px 15px;
+    --button-padding-medium: 12px 20px;
+    --button-padding-large: 12px 24px;
+    --border-radius-small: 8px;
+    --border-radius-medium: 10px;
+    --border-radius-large: 15px;
+    --shadow-small: 0 4px 15px var(--shadow-color-medium);
+    --shadow-medium: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    --shadow-large: -3px 3px 25px var(--shadow-color-blue);
+    --shadow-very-large: -10px 10px 50px var(--shadow-color-dark);
+    --vignette-gradient: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%);
+
+    /* Transições e Animações */
+    --transition-ease-out: all 0.6s ease;
+    --transition-transform-ease: transform 0.3s ease;
+    --transition-background-ease: background-color 0.3s ease;
+    --animation-pulse: pulse 1.5s infinite;
+    --animation-slide-duration: 1s;
+
+    /* URLs */
+    --banner1-image-mobile: url('/assets/images/mobile/atos.webp');
+    --banner2-image-mobile: url('/assets/images/mobile/criancas.webp');
+    --banner3-image-mobile: url('/assets/images/mobile/caipirao.webp');
+
+    --banner1-image-desktop: url('/assets/images/desktop/atos.webp');
+    --banner2-image-desktop: url('/assets/images/desktop/criancas.webp');
+    --banner3-image-desktop: url('/assets/images/desktop/caipirao.webp');
+
+    --contato-background: url('/assets/images/both/contato.webp')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: var(--main-font);
+    background: var(--dark-bg-color);
+    color: var(--white-color);
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: var(--h1-font-size-mobile);
+}
+
+h2 {
+    font-size: var(--h2-font-size-mobile);
+    padding: 30px 0;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: var(--white-color);
+    margin: 8px auto 0 auto;
+    border-radius: 2px;
+}
+
+h3 {
+    font-size: var(--h3-font-size-mobile);
+}
+
+p {
+    font-size: var(--p-font-size-mobile);
+    line-height: 1.5;
+    font-family: var(--main-font);
+}

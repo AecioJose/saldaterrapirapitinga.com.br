@@ -1,0 +1,613 @@
+/* ====================
+   MEDIA QUERIES PARA DESKTOP A partir de 1025px
+==================== */
+@media (min-width: 1025px) {
+    #recent-streams-section {
+        padding: 4rem 2rem;
+        overflow: visible;
+    }
+
+    #recent-streams-section h2 {
+        margin-bottom: 30px;
+    }
+
+    .recent-streams-grid {
+        max-width: 1920px;
+        flex-direction: row;
+        gap: 50px;
+        padding: 20px 0;
+        overflow: visible;
+    }
+
+    .recent-video-card {
+        flex: 1;
+    }
+
+    .recent-video-info p {
+        font-size: 1.03rem;
+    }
+
+    .recent-video-card.hover-ready {
+        transition: transform 0.2s ease-out;
+    }
+    .recent-video-card.hover-ready:hover {
+        transform: translateY(-15px);
+    }
+}
+
+/* ====================
+   MEDIA QUERIES PARA TELAS MUITO GRANDES 1440px pra cima)
+==================== */
+@media (min-width: 1440px) {
+    .welcome-text-overlay {
+        font-size: 7rem;
+    }
+    #logo-welcome-overlay {
+        width: 180px;
+    }
+    .welcome-text-overlay > p {
+        font-size: 2rem;
+    }
+
+    .carousel {
+        height: 85vh;
+    }
+
+    .destaqueBanner-container {
+        max-width: 700px;
+        padding: 35px 40px;
+    }
+    .destaqueBanner-container h1 {
+        font-size: 3.5rem;
+    }
+    .destaqueBanner-container p {
+        font-size: 1.2rem;
+    }
+
+    #welcome {
+        padding: 7dvw 0;
+    }
+    .container-img-welcome > img {
+        max-height: 50dvh;
+    }
+    .container-text-welcome > h1 {
+        font-size: 3.5rem;
+    }
+    .container-text-welcome > p {
+        font-size: 1.4rem;
+    }
+
+    #grupos {
+        padding: 30px 8dvw 30px 12dvw;
+    }
+    .pgs-container > h3 {
+        font-size: 4rem;
+    }
+    .pgs-container > p {
+        font-size: 1.2rem;
+    }
+
+    #contato {
+        padding: 50px 3rem;
+    }
+    .container-contatos, .container-redessociais {
+        width: 35%;
+    }
+}
+
+/* ====================
+   MEDIA QUERIES (TABLET - Portrait e Landscape)
+==================== */
+@media (min-width: 768px){
+    .prevButtonBanner, .nextButtonBanner {
+        width: 50px;
+        height: 50px;
+    }
+    .prevButtonBanner::before, .nextButtonBanner::before {
+        left: 47%;
+        width: 11px;
+        height: 11px;
+        border-width: 5px 5px 0 0;
+        border-radius: 2px;
+    }
+}
+@media (min-width: 930px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+    .nav-mobile {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .welcome-text-overlay {
+        font-size: 4.5rem;
+    }
+    #logo-welcome-overlay {
+        width: 120px;
+    }
+    .welcome-text-overlay > p {
+        font-size: 1.2rem;
+    }
+    #logofrase {
+        font-size: 1rem;
+    }
+
+    .carousel {
+        height: 80dvh;
+    }
+
+    .slide1 {
+        background-image: var(--banner1-image-desktop);
+    }
+    .slide2 {
+        background-image: var(--banner2-image-desktop);
+    }
+    .slide3 {
+        background-image: var(--banner3-image-desktop);
+    }
+
+    .destaqueBanner-container {
+        width: 80%;
+        max-width: none;
+    }
+    .destaqueBanner-container span {
+        font-size: 0.8rem;
+    }
+    .destaqueBanner-container h1 {
+        font-size: 2.5rem;
+    }
+    .destaqueBanner-container p {
+        font-size: 1rem;
+    }
+    .destaqueBanner-container .call-to-action-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    #welcome {
+        flex-direction: row;
+        padding: 3rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .container-text-welcome, .container-img-welcome {
+        width: 48%;
+        max-width: 500px;
+        padding: 0 1rem;
+        text-align: start;
+    }
+
+    .container-img-welcome > img {
+        max-height: 40dvh;
+        width: auto;
+    }
+
+    .container-text-welcome > h1 {
+        font-size: 2.5rem;
+    }
+
+    .container-text-welcome > p {
+        font-size: 1.1rem;
+    }
+
+    .redesociaisPR {
+        justify-content: flex-start;
+    }
+
+    #grupos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .pgs-container {
+        width: 48%;
+        max-width: 500px;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .pgs-container > h3 {
+        font-size: 3rem;
+        text-align: start;
+    }
+    .pgs-container > p {
+        font-size: 1.1rem;
+    }
+
+    .img-pgs-container {
+        width: 100%;
+        justify-content: center;
+        flex: 1.3;
+    }
+
+    .devocional-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .cafecomfe {
+        width: 28%;
+        height: 250px;
+    }
+
+    #contato {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px 2rem;
+        background-position: center;
+    }
+
+    .container-contatos, .container-redessociais {
+        width: 45%;
+        text-align: start;
+    }
+
+    .sdt-icones {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .linkInstaMinisterios {
+        font-size: 1rem;
+    }
+
+    .maps-container {
+        height: 50dvh;
+        width: 85%;
+    }
+
+    footer {
+        padding: 30px 4rem 15px 4rem;
+    }
+    .footer-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container-img-footer {
+        width: 30%;
+    }
+}
+
+/* ====================
+   MEDIA QUERIES (TABLET - Portrait comportamento mobile)
+==================== */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .welcome-text-overlay {
+        font-size: 4rem;
+    }
+    #logo-welcome-overlay {
+        width: 100px;
+    }
+    .welcome-text-overlay > p {
+        font-size: 1.1rem;
+    }
+
+    .carousel {
+        height: 90dvh;
+    }
+    .slide1 {
+        background-image: var(--banner1-image-mobile);
+    }
+    .slide2 {
+        background-image: var(--banner2-image-mobile);
+    }
+    .slide3 {
+        background-image: var(--banner3-image-mobile);
+    }
+
+    .destaqueBanner-container {
+        width: 85%;
+        max-width: none;
+    }
+    .destaqueBanner-container h1 {
+        font-size: 2.2rem;
+    }
+    .destaqueBanner-container p {
+        gap: 20px;
+    }
+
+    #welcome {
+        flex-direction: column;
+        padding: 5dvw 0;
+    }
+    .container-text-welcome, .container-img-welcome {
+        width: 90%;
+        text-align: center;
+        max-width: none;
+    }
+    .redesociaisPR {
+        justify-content: center;
+    }
+    .container-img-welcome > img {
+        max-height: 30dvh;
+    }
+
+    .recent-streams-grid {
+        flex-direction: row;
+    }
+
+    #grupos {
+        flex-direction: column;
+        padding: 20px 2rem 30px 2rem;
+    }
+    .pgs-container {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+    .pgs-container > h3 {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .devocional-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cafecomfe {
+        width: 80%;
+        height: 200px;
+    }
+}
+
+/* ====================
+   MEDIA QUERIES (DESKTOP E TELAS GRANDES - a partir de 1025px)
+==================== */
+@media (min-width: 1025px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-mobile {
+        display: none !important;
+    }
+
+    .welcome-text-overlay {
+        font-size: 6rem;
+    }
+    #logo-welcome-overlay {
+        width: 150px;
+        height: auto;
+    }
+    .welcome-text-overlay > p{
+        font-size: 1.6rem;
+    }
+    .quebra-mobile {
+        display: none;
+    }
+    #logofrase {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+
+    .slide1 {
+        background-image: var(--banner1-image-desktop);
+    }
+    .slide2 {
+        background-image: var(--banner2-image-desktop);
+    }
+    .slide3 {
+        background-image: var(--banner3-image-desktop);
+    }
+
+    .carousel {
+        height: 90vh;
+    }
+
+    .destaqueBanner-container {
+        max-width: 75%;
+    }
+
+    .destaqueBanner-container span {
+        font-size: 1rem;
+    }
+
+    .destaqueBanner-container h1 {
+        font-size: 3rem;
+    }
+
+    .destaqueBanner-container p {
+        font-size: 1.1rem;
+        flex-direction: row;
+        align-items: end;
+        font-weight: normal;
+    }
+
+    .destaqueBanner-container .call-to-action-button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    #welcome {
+        flex-direction: row;
+        padding: 5dvw 0;
+        justify-content: center;
+    }
+
+    .container-text-welcome, .container-img-welcome {
+        width: 60%;
+        max-width: 960px;
+        padding: 0 5dvw;
+        text-align: start;
+    }
+
+    .container-img-welcome {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .container-img-welcome > img {
+        width: 100%;
+    }
+
+    .container-text-welcome > h2 {
+        font-size: 1rem;
+    }
+
+    .container-text-welcome > h1 {
+        font-size: 3rem;
+    }
+
+    .container-text-welcome > p, p {
+        font-size: 1.3rem;
+    }
+
+    .redesociaisPR {
+        justify-content: flex-start;
+    }
+
+    .container-cultos {
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .devocional-hero-container {
+        height: 60dvh;
+    }
+
+    .devocional-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cafecomfe {
+        width: 20%;
+        height: 92%;
+    }
+
+    #grupos {
+        flex-direction: row;
+        padding: 20px 5dvw 20px 10dvw;
+    }
+
+    .pgs-container {
+        align-items: flex-start;
+        text-align: start;
+        flex: 1;
+    }
+
+    .pgs-container > h3 {
+        font-size: 3.5rem;
+        text-align: start;
+    }
+    .pgs-container > p {
+        font-size: 1.1rem;
+    }
+
+
+
+    #contato {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        background-position: 50% 40%;
+    }
+    #contato::before {
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .container-contatos, .container-redessociais {
+        width: 40%;
+        text-align: start;
+    }
+
+    .sdt-icones {
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .iconeSocial > i{
+        font-size: 2.1rem;
+    }
+
+    .ministerios-redessociais {
+        align-items: flex-start;
+    }
+
+    .redesociasministerio-container {
+        align-items: flex-start;
+    }
+
+    .linkInstaMinisterios {
+        font-size: 1.1rem;
+    }
+
+    .maps-container {
+        height: 60dvh;
+        width: 90%;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-img-footer {
+        width: 25%;
+    }
+
+    .container-img-footer > img {
+        width: 100px;
+    }
+
+    .container-endereco p {
+        font-size: 1rem;
+    }
+
+    #endereco {
+        font-size: 0.9rem;
+    }
+
+    .container-footer {
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .container-footer > p {
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+
+    .container-footer > a {
+        font-size: 1rem;
+    }
+
+    .direitos-footer {
+        justify-content: center;
+    }
+
+    #contato-spacer {
+        scroll-margin-top: 50px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1355px){
+    .pgs-container > h3 {
+        font-size: 3.2rem;
+    }
+}

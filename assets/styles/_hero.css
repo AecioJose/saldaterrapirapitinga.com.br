@@ -1,0 +1,260 @@
+/* ====================
+   VIDEO HERO
+==================== */
+.video-hero {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.video-hero video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.8);
+    z-index: 1;
+}
+
+.welcome-text-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px var(--shadow-color-dark);
+    z-index: 5;
+    pointer-events: none;
+    transition: opacity 0.5s ease-out;
+}
+
+#logo-welcome-overlay {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(-5px 10px 8px var(--shadow-color-dark));
+}
+
+.welcome-text-overlay > p {
+    filter: drop-shadow(-3px 6px 8px var(--shadow-color-dark));
+}
+
+.quebra-mobile {
+    display: inline;
+}
+
+#logofrase {
+    white-space: nowrap;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.welcome-text-overlay.hidden {
+    display: none;
+}
+
+.vignette-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    background: var(--vignette-gradient);
+    z-index: 2;
+}
+
+/* ====================
+   HERO / CAROUSEL
+==================== */
+.hero {
+    background: var(--dark-bg-color);
+    padding: 0;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50vh;
+    scroll-margin-top: 40px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: var(--carousel-height-mobile);
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 300%; /* Para 3 slides de 100% cada */
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    padding-bottom: var(--carousel-slide-padding-bottom);
+}
+
+.slide1 {
+    background-image: var(--banner1-image-mobile);
+}
+.slide2 {
+    background-image: var(--banner2-image-mobile);
+}
+.slide3 {
+    background-image: var(--banner3-image-mobile);
+}
+
+.destaqueBanner-container {
+    width: 90%;
+    max-width: 400px;
+    padding: var(--destaque-banner-padding);
+    background: rgba(46, 46, 46, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--border-color-light);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-medium);
+    color: var(--white-color);
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    z-index: 10;
+}
+
+.destaqueBanner-container span {
+    font-size: var(--small-text-size);
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.destaqueBanner-container h1 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.destaqueBanner-container p {
+    font-size: var(--normal-text-size);
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    gap: 20px;
+}
+
+.destaqueBanner-container .call-to-action-button {
+    background-color: var(--text-color-medium-dark);
+    color: var(--white-color);
+    border: none;
+    border-radius: var(--border-radius-small);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition-background-ease), var(--transition-transform-ease);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: var(--button-padding-large);
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.destaqueBanner-container .call-to-action-button:hover {
+    color: var(--secondary-color);
+    filter: brightness(1.1);
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: var(--white-color);
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 14;
+}
+
+.carousel-dots .dot.active {
+    opacity: 1;
+}
+
+.buttonPrevNext-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.prevButtonBanner, .nextButtonBanner {
+    width: 38px;
+    height: 38px;
+    background-color: var(--buttonSlideBanner-background);
+    border: none;
+    cursor: pointer;
+    margin-right: -20px;
+    z-index: 11;
+    border-radius: 50%;
+    position: relative;
+    border: solid 1px var(--buttonSlideBanner-border);
+}
+.nextButtonBanner {
+    margin-left: -20px;
+    margin-right: 0;
+}
+.prevButtonBanner::before, .nextButtonBanner::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  width: 8px;
+  height: 8px;
+  border-style: solid;
+  border-color: var(--buttonSlideBanner-arrow);
+  border-width: 4px 4px 0 0;
+  border-radius: 3px;
+  display: inline-block;
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: 12;
+}
+.prevButtonBanner::before {
+    transform: translate(-50%, -50%) rotate(-135deg);
+    left: 53%;
+}

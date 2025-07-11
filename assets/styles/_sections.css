@@ -1,0 +1,321 @@
+/* ====================
+   WELCOME SECTION
+==================== */
+#welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5dvw 0;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-text-welcome, .container-img-welcome {
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    text-overflow: hidden;
+}
+
+.container-img-welcome > img {
+    width: 100%;
+    box-shadow: var(--shadow-large);
+    border-radius: var(--border-radius-medium);
+}
+
+
+.container-text-welcome > h2 {
+    font-weight: bolder;
+    font-size: var(--normal-text-size);
+    padding: 0;
+}
+
+.container-text-welcome > h2::after {
+    display: none;
+}
+
+.container-text-welcome > h1 {
+    font-weight: bolder;
+    font-size: 2.1rem;
+    margin: 20px 0;
+}
+
+.container-text-welcome > p {
+    font-weight: normal;
+    font-size: var(--p-font-size-mobile);
+}
+
+#prName {
+    color: var(--primary-color);
+    font-size: var(--normal-text-size);
+    margin: 10px 0 20px 0;
+}
+
+.redesociaisPR {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconeSocial {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconeSocial > i{
+    font-size: var(--h2-font-size-mobile);
+}
+
+.social-icon {
+    font-size: 24px;
+    color: var(--primary-color);
+    transition: var(--transition-transform-ease);
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* ====================
+   NOSSA AGENDA SECTION
+==================== */
+#cultos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.conatainer-hero-cultos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.container-cultos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.container-cultos > p {
+    font-size: var(--medium-text-size);
+}
+
+/* ====================
+   DEVOCIONAL SECTION
+==================== */
+#devocional {
+    padding-top: 30px;
+}
+
+#devocional p {
+    margin-bottom: 15px;
+}
+
+.devocional-hero-container {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.devocional-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cafecomfe {
+    background-color: #666;
+    width: 80%;
+    height: 200px;
+    border-radius: var(--border-radius-small);
+}
+
+/* ====================
+   GRUPOS SECTION
+==================== */
+#grupos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2rem 30px 2rem;
+    gap: 30px;
+}
+
+.pgs-container {
+    width: 90%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.pgs-container > h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+
+.pgs-container > p {
+    font-size: var(--p-font-size-mobile);
+}
+
+.pg-button {
+    background-color: var(--text-color-medium-dark);
+    color: var(--primary-color);
+    padding: var(--button-padding-medium);
+    border-radius: var(--border-radius-medium);
+    font-size: var(--medium-text-size);
+    transition: var(--transition-transform-ease);
+}
+
+.pg-button:hover {
+    transform: scale(1.05);
+}
+
+.img-pgs-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.img-pgs-container > img {
+    max-width: 100%;
+    box-shadow: var(--shadow-very-large);
+    border-radius: var(--border-radius-small);
+}
+
+/* ====================
+   CONTATO SECTION
+==================== */
+#contato {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: var(--contato-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 40%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 30px 1rem;
+    gap: 30px;
+}
+
+#contato::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: var(--blur-bg-color-contact);
+    z-index: 0;
+}
+
+#contato > * {
+    position: relative;
+    z-index: 1;
+}
+
+.container-contatos, .container-redessociais {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.button-whats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-whats-container > p{
+    font-size: var(--large-text-size);
+}
+
+.whatsapp-link {
+    color: var(--black-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-medium);
+    padding: var(--button-padding-small);
+    font-size: var(--p-font-size-mobile);
+    transition: var(--transition-transform-ease);
+}
+
+.whatsapp-link:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+.sdt-icones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.ministerios-redessociais {
+    margin-top: 30px;
+}
+
+.subtitle-redessociais {
+    font-size: var(--medium-text-size);
+    margin-bottom: 15px;
+}
+
+.redesociasministerio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.instaarroba {
+    margin-left: 5px;
+    color: var(--white-color);
+}
+
+.linkInstaMinisterios {
+    font-size: 0.95rem;
+}
+
+/* ====================
+   LOCALIZAÇÃO SECTION
+==================== */
+.maps-container {
+    height: 40dvh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.maps-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius-small);
+    box-shadow: 0 0 20px var(--shadow-color-medium);
+}

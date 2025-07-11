@@ -1,0 +1,118 @@
+/* ====================
+   HEADER
+==================== */
+header {
+    background: var(--dark-bg-color);
+    padding: var(--padding-header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    flex-wrap: nowrap;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: var(--header-transition-duration);
+}
+
+header.visible {
+    transform: translateY(0);
+    opacity: 1;
+    background: var(--blur-bg-color);
+    backdrop-filter: blur(4px);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1dvw;
+}
+
+.logo {
+    height: var(--header-height);
+    width: auto;
+}
+
+/* ====================
+   MENU TOGGLE (Mobile)
+==================== */
+.menu-toggle {
+    font-size: 28px;
+    cursor: pointer;
+    transition: var(--transition-transform-ease);
+    z-index: 1001;
+    user-select: none;
+    display: block;
+    font-family: var(--icon-font);
+}
+
+.menu-toggle:hover {
+    transform: scale(1.2);
+}
+
+.menu-toggle::before {
+    content: "menu";
+}
+
+.menu-toggle.opened::before {
+    content: "close";
+}
+
+/* ====================
+   NAVIGATION
+==================== */
+.nav-mobile {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 100%;
+    max-width: var(--nav-mobile-width);
+    background: var(--medium-dark-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-mobile.active {
+    right: 0;
+}
+
+.nav-mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.nav-mobile a {
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-desktop ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-desktop a {
+    font-size: 16px;
+    text-wrap: nowrap;
+}

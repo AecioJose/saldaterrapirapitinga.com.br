@@ -1,5 +1,5 @@
 /* ====================
-    LIVE STREAM SECTION
+   LIVE STREAM SECTION
 ==================== */
 #live-stream-section {
     padding: 4rem 1rem;
@@ -21,7 +21,7 @@
 
 .live-indicator {
     font-size: 1.8rem;
-    color: #ee0000;
+    color: var(--red-color);
     font-weight: bold;
     padding: 0;
 }
@@ -38,11 +38,11 @@
 
 .live-video-card {
     width: 100%;
-    background-color: #1b1b1b;
-    border-radius: 10px;
+    background-color: var(--card-bg-color);
+    border-radius: var(--border-radius-medium);
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
+    box-shadow: var(--shadow-small);
+    transition: var(--transition-transform-ease);
     margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@
 
 .live-video-card a {
     display: block;
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
 }
 
@@ -70,37 +70,37 @@
 }
 
 .live-video-info p {
-    font-size: 1.1rem;
+    font-size: var(--medium-text-size);
     font-weight: bold;
     line-height: 1.4;
     margin: 0;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 #live-watch-button {
-    background-color: #ff0000;
-    color: #ffffff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 1rem;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: var(--button-padding-large);
+    border-radius: var(--border-radius-small);
+    font-size: var(--p-font-size-mobile);
     font-weight: bold;
     text-transform: uppercase;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: var(--transition-background-ease), var(--transition-transform-ease);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    animation: pulse 1.5s infinite;
+    animation: var(--animation-pulse);
     margin-top: 20px;
 }
 
 #live-watch-button:hover {
-    background-color: #cc0000;
+    background-color: var(--dark-red-color);
     transform: scale(1.05);
 }
 
 /* ====================
-    RECENT STREAMS SECTION
+   RECENT STREAMS SECTION
 ==================== */
 #recent-streams-section {
     padding: 3rem 1rem;
@@ -108,35 +108,32 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    overflow: hidden;
 }
 
 #recent-streams-section h2 {
-    color: #ffffff;
+    color: var(--white-color);
     margin-bottom: 20px;
 }
 
 .recent-streams-grid {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
     gap: 25px;
     width: 90%;
     max-width: 1000px;
 }
 
 .recent-video-card {
-    background-color: #191919;
-    border-radius: 10px;
+    background-color: var(--card-bg-color-recent);
+    border-radius: var(--border-radius-medium);
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 15px var(--shadow-color-medium);
 }
-
-
 
 .recent-video-card a {
     display: block;
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
 }
 
@@ -154,20 +151,20 @@
 }
 
 .recent-video-info p {
-    font-size: 1rem;
+    font-size: var(--p-font-size-mobile);
     font-weight: bold;
     line-height: 1.3;
     margin: 0;
-    color: #ffffffd3;
-    filter: drop-shadow(-3px 6px 8px rgba(0, 0, 0, 0.9));
+    color: var(--text-color-light-opacity);
+    filter: drop-shadow(-3px 6px 8px var(--shadow-color-dark));
 }
 
 /* ====================
-    ANIMATIONS FOR RECENT STREAMS (Controladas pelo JS)
+   ANIMATIONS FOR RECENT STREAMS (Controladas pelo JS)
 ==================== */
 .recent-video-card {
     opacity: 0;
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity var(--animation-slide-duration) ease-out, transform var(--animation-slide-duration) ease-out;
     will-change: transform, opacity;
 }
 
@@ -182,44 +179,4 @@
 .recent-video-card.is-visible {
     opacity: 1;
     transform: translateX(0px);
-}
-
-
-
-/* ====================
-    MEDIA QUERIES (DESKTOP)
-==================== */
-@media (min-width: 769px) {
-
-    #recent-streams-section {
-        padding: 4rem 2rem;
-        overflow: visible;
-    }
-
-    #recent-streams-section h2 {
-        margin-bottom: 30px;
-    }
-
-    .recent-streams-grid {
-        max-width: 1920px;
-        flex-direction: row;
-        gap: 50px;
-        padding: 20px 0;
-        overflow: visible;
-    }
-
-    .recent-video-card {
-        flex: 1;
-    }
-
-    .recent-video-info p {
-        font-size: 1.03rem;
-    }
-
-    .recent-video-card.hover-ready {
-        transition: transform 0.2s ease-out;
-    }
-    .recent-video-card.hover-ready:hover {
-        transform: translateY(-15px);
-    }
 }

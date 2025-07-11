@@ -1,0 +1,24 @@
+/* ====================
+   LAYOUT
+==================== */
+.section {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: var(--padding-section-mobile);
+    overflow: hidden;
+}
+
+.section.dark {
+    background-color: var(--darker-bg-color);
+}
+
+.section.light {
+    background-color: var(--light-dark-bg-color);
+}
+
+.scroll-spacer {
+    height: 100px;
+    margin-top: -100px;
+    scroll-margin-top: 10px;
+}

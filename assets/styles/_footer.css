@@ -1,0 +1,79 @@
+/* ====================
+   FOOTER
+==================== */
+footer {
+    background: var(--dark-bg-color);
+    padding: 30px 2rem 15px 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    z-index: 10;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.container-img-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-img-footer > img {
+    height: auto;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.container-endereco p {
+    font-size: var(--normal-text-size);
+    margin: 5px 0;
+}
+
+#endereco {
+    font-weight: normal;
+    font-size: 0.85rem;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.container-footer > p {
+    font-weight: bolder;
+    font-size: var(--normal-text-size);
+    margin-bottom: 5px;
+}
+
+.container-footer > a {
+    font-weight: normal;
+    font-size: var(--normal-text-size);
+}
+
+.direitos-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color-dark);
+    margin-top: 20px;
+}
+
+.direitos-footer > p {
+    font-size: 0.8rem;
+    text-align: center;
+}

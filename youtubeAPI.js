@@ -81,7 +81,8 @@ function displayRecentStreams(data) {
                 card.classList.add('is-visible');
                 setTimeout(() => {
                 card.classList.add('hover-ready');
-            }, 1000);
+
+            }, 1100);
             } else {
                 card.classList.remove('is-visible');
                 card.classList.remove('hover-ready');

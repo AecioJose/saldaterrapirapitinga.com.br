@@ -34,17 +34,19 @@
 
     <meta name="twitter:image" content="https://www.saldaterrapirapitinga.com.br/assets/images/both/SDT_Entrada.webp" />
 
-    <link rel="icon" href="./assets/icons/Logo_SDT.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="./assets/icons/Logo_SDT.png" sizes="180x180">
-    <link rel="icon" href="./assets/icons/Logo_SDT.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="./assets/icons/Logo_SDT.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/assets/icons/Logo_SDT.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/icons/Logo_SDT.png" sizes="180x180">
+    <link rel="icon" href="/assets/icons/Logo_SDT.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/assets/icons/Logo_SDT.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/assets/icons/Logo_SDT.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="/assets/icons/Logo_SDT.png" sizes="192x192" type="image/png">
+
 
     <link rel="canonical" href="https://saldaterrapirapitinga.com.br/" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="youtubeAPI.css" />
+    <link rel="stylesheet" href="main.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,6 +54,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0">
 
     <title>Sal da Terra Pirapitinga</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0P2JM58CT"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E0P2JM58CT');
+    </script>
 
 </head>
 <body>
@@ -104,24 +115,36 @@
         <div class="carousel">
             <div class="carousel-inner">
                 <div class="carousel-slide slide1">
-                    <div class="destaqueBanner-container">
-                        <span>DESTAQUE</span>
-                        <h1>Conferência De Jovens 2025 | NOW!</h1>
-                        <p>E chegará o tempo em que os verdadeiros adoradores adorarão o Pai!  Esperamos você para um momento único, momento de voltar a simplicidade da adoração. Conferência NOW, de 14 a 16 de Agosto. Segundo lote a venda! ❤️‍🔥 <button class="call-to-action-button" onclick="window.open('https://linknabio.gg/atosmovement', '_blank')">Comprar ingresso!</button></p>
+                    <div class="buttonPrevNext-container">
+                        <button class="prevButtonBanner" onclick="prevSlide()"></button>
+                        <div class="destaqueBanner-container">
+                            <span>DESTAQUE</span>
+                            <h1>Conferência De Jovens 2025 | NOW!</h1>
+                            <p>E chegará o tempo em que os verdadeiros adoradores adorarão o Pai!  Esperamos você para um momento único, momento de voltar a simplicidade da adoração. Conferência NOW, de 14 a 16 de Agosto. Segundo lote a venda! ❤️‍🔥 <button class="call-to-action-button" onclick="window.open('https://linknabio.gg/atosmovement', '_blank')">Comprar ingresso!</button></p>
+                        </div>
+                        <button class="nextButtonBanner" onclick="nextSlide()"></button>
                     </div>
                 </div>
                 <div class="carousel-slide slide2">
-                    <div class="destaqueBanner-container">
-                        <span>DESTAQUE</span>
-                        <h1>Conferência de Crianças 2025</h1>
-                        <p>Vem aí a Conferência Kids "Descobrindo o Princípio da Honra", no dia 26 de julho! Um dia especial em família, com muita alegria, animação e a presença do Senhor Jesus. Princípios eternos serão plantados no coração dos pequenos. Ingressos à venda!<button class="call-to-action-button" onclick="window.open('https://linktr.ee/misalkidss', '_blank')">SAIBA MAIS!</button></p>
+                    <div class="buttonPrevNext-container">
+                        <button class="prevButtonBanner" onclick="prevSlide()"></button>
+                        <div class="destaqueBanner-container">
+                            <span>DESTAQUE</span>
+                            <h1>Conferência de Crianças 2025</h1>
+                            <p>Vem aí a Conferência Kids "Descobrindo o Princípio da Honra", no dia 26 de julho! Um dia especial em família, com muita alegria, animação e a presença do Senhor Jesus. Princípios eternos serão plantados no coração dos pequenos. Ingressos à venda!<button class="call-to-action-button" onclick="window.open('https://linktr.ee/misalkidss', '_blank')">SAIBA MAIS!</button></p>
+                        </div>
+                        <button class="nextButtonBanner" onclick="nextSlide()"></button>
                     </div>
                 </div>
                 <div class="carousel-slide slide3">
-                    <div class="destaqueBanner-container">
-                        <span>DESTAQUE</span>
-                        <h1>Caipirão 2025</h1>
-                        <p>O Caipirão 2025 tá chegando, sô! E nóis num podia deixá de te chamá pra essa festança arretada lá na Sal da Terra Pirapitinga, com pamonha, espetinho, doce, milho, um tanto de brincadeira boa e alegria pra todo mundo!<button class="call-to-action-button" onclick="window.open('https://www.instagram.com/p/DKxuX4oRZn3/', '_blank')">SAIBA MAIS!</button></p>
+                    <div class="buttonPrevNext-container">
+                        <button class="prevButtonBanner" onclick="prevSlide()"></button>
+                        <div class="destaqueBanner-container">
+                            <span>DESTAQUE</span>
+                            <h1>Caipirão 2025</h1>
+                            <p>O Caipirão 2025 tá chegando, sô! E nóis num podia deixá de te chamá pra essa festança arretada lá na Sal da Terra Pirapitinga, com pamonha, espetinho, doce, milho, um tanto de brincadeira boa e alegria pra todo mundo!<button class="call-to-action-button" onclick="window.open('https://www.instagram.com/p/DKxuX4oRZn3/', '_blank')">SAIBA MAIS!</button></p>
+                        </div>
+                        <button class="nextButtonBanner" onclick="nextSlide()"></button>
                     </div>
                 </div>
             </div>
@@ -171,7 +194,7 @@
     </section>
 
 
-    <section class="section light" id="recent-streams-section">
+    <section class="section light" id="recent-streams-section" style="overflow: hidden;">
         <h2>Últimas Transmissões</h2>
         <div class="recent-streams-grid" id="recent-streams-container">
             
