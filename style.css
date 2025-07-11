@@ -68,11 +68,11 @@ p {
 }
 
 .section.dark {
-    background-color: #1c1c1c;
+    background-color: #0f0a01;
 }
 
 .section.light {
-    background-color: #3c3c3c;
+    background-color: #282828;
 }
 
 /* ====================
@@ -628,7 +628,7 @@ header.visible {
     background-image: url("assets/images/both/contato.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 40%;
+    background-position: 15% 40%;
     overflow: hidden;
     z-index: 1;
     padding: 30px 1rem;
@@ -641,7 +641,7 @@ header.visible {
     inset: 0;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.65);
     z-index: 0;
 }
 
@@ -977,6 +977,10 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: stretch;
+        background-position: 50% 40%;
+    }
+    #contato::before {
+        background: rgba(0, 0, 0, 0.4);
     }
 
     .container-contatos, .container-redessociais {

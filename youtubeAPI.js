@@ -43,7 +43,7 @@ function displayRecentStreams(data) {
     const recentStreamsContainer = document.getElementById("recent-streams-container");
     recentStreamsContainer.innerHTML = ''; 
 
-    const streamsToShow = data.latest_completed_live_streams.slice(0, 2);
+    const streamsToShow = data.latest_completed_live_streams.slice(0, 3);
 
     streamsToShow.forEach((stream, index) => {
         const videoCard = document.createElement("div");
@@ -52,6 +52,8 @@ function displayRecentStreams(data) {
         if (index === 0) {
             videoCard.classList.add("slide-from-left");
         } else if (index === 1) {
+            videoCard.classList.add("slide-from-right");
+        } else if (index === 2) {
             videoCard.classList.add("slide-from-right");
         }
 
@@ -77,8 +79,12 @@ function displayRecentStreams(data) {
 
             if (topDistance <= viewportMiddle) {
                 card.classList.add('is-visible');
+                setTimeout(() => {
+                card.classList.add('hover-ready');
+            }, 1000);
             } else {
                 card.classList.remove('is-visible');
+                card.classList.remove('hover-ready');
             }
         });
     }

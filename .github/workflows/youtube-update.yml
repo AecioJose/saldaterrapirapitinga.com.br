@@ -2,17 +2,26 @@ name: Atualizar vídeos do YouTube
 
 on:
   schedule:
-    # Seg a Sex: 7h30 BRT (10h30 UTC) e 19h30 BRT (22h30 UTC)
-    - cron: '10 10 * * 1-5' # Segunda a Sexta, 10h30 UTC
-    - cron: '30 22 * * 1-5' # Segunda a Sexta, 22h30 UTC
+    # SEG a SEX: 07:00 BRT → 10:00 UTC
+    - cron: '0 10 * * 1-5'
+    # SEG a SEX: 19:20 BRT → 22:20 UTC
+    - cron: '20 22 * * 1-5'
 
-    # Sábado e Domingo: 9h BRT (12h UTC) e 19h BRT (22h UTC)
-    - cron: '0 12 * * 0,6'  # Domingo e Sábado, 12h UTC
-    - cron: '0 22 * * 0,6'  # Domingo e Sábado, 22h UTC
+    # SÁB e DOM: 09:00 BRT → 12:00 UTC
+    - cron: '0 12 * * 6,0'
+    # SÁB e DOM: 18:50 BRT → 21:50 UTC
+    - cron: '50 21 * * 6,0'
 
-    # Cron pós-live para garantir atualização rápida do status "ao vivo"
-    - cron: '0 2 * * 1' # Segunda-feira 02:00 UTC (Domingo 23h BRT)
-    - cron: '0 2 * * 5' # Sexta-feira 02:00 UTC (Quinta 23h BRT)
+    # Pós-live:
+    # QUINTA 21:30 BRT → sexta 00:30 UTC
+    - cron: '30 0 * * 5'
+    # SEXTA 22:00 BRT → sábado 01:00 UTC
+    - cron: '0 1 * * 6'
+    # SÁBADO 22:00 BRT → domingo 01:00 UTC
+    - cron: '0 1 * * 0'
+    # DOMINGO 21:50 BRT → segunda 00:50 UTC
+    - cron: '50 0 * * 1'
+
   workflow_dispatch:
 
 jobs:
