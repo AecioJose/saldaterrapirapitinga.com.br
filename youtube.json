@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-17T10:25:23.648129",
+  "last_updated": "2025-07-17T22:41:35.874594",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=IEyyvpr8E_o"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "RESTAURAÇÃO | MINISTRAÇÃO | JOANA DARC | 19:30 | 17 DE JULHO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/oYI-SV2_uHE/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=oYI-SV2_uHE"
+  }
 }
