@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-20T12:42:53.942027",
+  "last_updated": "2025-07-20T21:53:04.446964",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=m6eQxJyrMs0"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 20 DE JULHO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/upCoRxS7PsY/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
+  }
 }
