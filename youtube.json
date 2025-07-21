@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-20T21:53:04.446964",
+  "last_updated": "2025-07-21T02:54:53.226584",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 20 DE JULHO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/upCoRxS7PsY/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
+    },
     {
       "title": "RESTAURAÇÃO | MINISTRAÇÃO | JOANA DARC | 19:30 | 17 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/oYI-SV2_uHE/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 13 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Nk9MD1uZC-A/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Nk9MD1uZC-A"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 08 DE JULHO  DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/m6eQxJyrMs0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=m6eQxJyrMs0"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 20 DE JULHO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/upCoRxS7PsY/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
-  }
+  "current_live_stream": null
 }
