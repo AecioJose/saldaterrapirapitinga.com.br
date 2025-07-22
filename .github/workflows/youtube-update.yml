@@ -2,25 +2,27 @@ name: Atualizar vídeos do YouTube
 
 on:
   schedule:
+    #Café com fé manhã
     # SEG a SEX: 07:00 BRT → 10:00 UTC
     - cron: '0 10 * * 1-5'
-    # SEG a SEX: 19:20 BRT → 22:20 UTC
-    - cron: '20 22 * * 1-5'
+    # SÁB e DOM: 09:20 BRT → 12:00 UTC
+    - cron: '20 12 * * 6,0'
 
-    # SÁB e DOM: 09:00 BRT → 12:00 UTC
-    - cron: '0 12 * * 6,0'
+    # Pré-LIVE:
     # SÁB e DOM: 18:50 BRT → 21:50 UTC
     - cron: '50 21 * * 6,0'
+    # SÁB e DOM: 19:35 BRT → 22:35 UTC
+    - cron: '35 22 * * 6,0'
 
     # Pós-live:
-    # QUINTA 21:30 BRT → sexta 00:30 UTC
-    - cron: '30 0 * * 5'
+    # QUINTA 21:15 BRT → sexta 00:15 UTC
+    - cron: '15 0 * * 5'
     # SEXTA 22:00 BRT → sábado 01:00 UTC
     - cron: '0 1 * * 6'
     # SÁBADO 22:00 BRT → domingo 01:00 UTC
     - cron: '0 1 * * 0'
-    # DOMINGO 21:50 BRT → segunda 00:50 UTC
-    - cron: '50 0 * * 1'
+    # DOMINGO 21:40 BRT → segunda 00:40 UTC
+    - cron: '40 0 * * 1'
 
   workflow_dispatch:
 
