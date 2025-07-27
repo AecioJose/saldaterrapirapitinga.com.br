@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-27T21:53:15.213841",
+  "last_updated": "2025-07-27T22:48:50.041377",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 27 DE JULHO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/c2wCnYvmPCo/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=c2wCnYvmPCo"
+  }
 }
