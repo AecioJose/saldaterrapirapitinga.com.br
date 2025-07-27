@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-26T22:47:17.925767",
+  "last_updated": "2025-07-27T03:08:25.021933",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CONFERÊNCIA KIDS | MINISTRAÇÃO | RENAN | 19:00 | 26 DE JULHO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/BVA5OveMXrc/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=BVA5OveMXrc"
+    },
     {
       "title": "RESTAURAÇÃO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 24 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/lBg5K5Wi4Y8/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 20 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/upCoRxS7PsY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
-    },
-    {
-      "title": "RESTAURAÇÃO | MINISTRAÇÃO | JOANA DARC | 19:30 | 17 DE JULHO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/oYI-SV2_uHE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=oYI-SV2_uHE"
     }
   ],
   "current_live_stream": null
