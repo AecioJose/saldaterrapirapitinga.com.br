@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-27T22:48:50.041377",
+  "last_updated": "2025-07-28T02:54:56.474251",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 27 DE JULHO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/c2wCnYvmPCo/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=c2wCnYvmPCo"
+    },
     {
       "title": "CONFERÊNCIA KIDS | MINISTRAÇÃO | RENAN | 19:00 | 26 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/BVA5OveMXrc/hqdefault_live.jpg",
@@ -12,16 +17,7 @@
       "title": "RESTAURAÇÃO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 24 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/lBg5K5Wi4Y8/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=lBg5K5Wi4Y8"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 20 DE JULHO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/upCoRxS7PsY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 27 DE JULHO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/c2wCnYvmPCo/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=c2wCnYvmPCo"
-  }
+  "current_live_stream": null
 }
