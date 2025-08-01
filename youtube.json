@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-07-31T10:25:28.966307",
+  "last_updated": "2025-08-01T02:44:54.798773",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "RESTAURAÇÃO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 31 DE JULHO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/bhwKjKG1abY/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=bhwKjKG1abY"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 27 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/c2wCnYvmPCo/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "RESTAURAÇÃO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 24 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/lBg5K5Wi4Y8/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=lBg5K5Wi4Y8"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 20 DE JULHO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/upCoRxS7PsY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=upCoRxS7PsY"
     }
   ],
   "current_live_stream": null
