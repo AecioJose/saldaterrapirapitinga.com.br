@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-08-03T21:52:50.318337",
+  "last_updated": "2025-08-03T22:48:48.206043",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=lBg5K5Wi4Y8"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 03 DE AGOSTO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/_MUEkp1tl7Q/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=_MUEkp1tl7Q"
+  }
 }
