@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-08-03T22:48:48.206043",
+  "last_updated": "2025-08-04T03:01:46.114047",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 03 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/_MUEkp1tl7Q/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=_MUEkp1tl7Q"
+    },
     {
       "title": "RESTAURAÇÃO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 31 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/bhwKjKG1abY/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 27 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/c2wCnYvmPCo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=c2wCnYvmPCo"
-    },
-    {
-      "title": "RESTAURAÇÃO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 24 DE JULHO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/lBg5K5Wi4Y8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=lBg5K5Wi4Y8"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 03 DE AGOSTO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/_MUEkp1tl7Q/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=_MUEkp1tl7Q"
-  }
+  "current_live_stream": null
 }
