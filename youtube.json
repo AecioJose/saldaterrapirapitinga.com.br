@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-08-07T10:24:26.586597",
+  "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
+  "last_updated": "2025-08-08T02:34:22.335201",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O CORAÇÃO DO PAI | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 07 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/exRmJSTpWuY/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=exRmJSTpWuY"
+    },
     {
       "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 03 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/_MUEkp1tl7Q/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "RESTAURAÇÃO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 31 DE JULHO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/bhwKjKG1abY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=bhwKjKG1abY"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 27 DE JULHO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/c2wCnYvmPCo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=c2wCnYvmPCo"
     }
   ],
   "current_live_stream": null
