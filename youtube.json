@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2025-08-10T21:53:12.713389",
+  "last_updated": "2025-08-10T22:46:24.995266",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=c2wCnYvmPCo"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 10 DE AGOSTO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/gyNBu1LvdI8/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=gyNBu1LvdI8"
+  }
 }
