@@ -1,22 +1,22 @@
 {
-  "ThursdaySeries": "culto série RESTAURAÇÃO",
-  "last_updated": "2025-08-20T10:22:17.747953",
+  "ThursdaySeries": "culto série CONFERÊNCIA DE JOVENS ATOS NOW",
+  "last_updated": "2025-08-21T10:21:44.503077",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | GABRIELL JÚNIOR | 15 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/60kz4klveHo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=60kz4klveHo"
+    },
+    {
+      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | DAVIDE GROSSO | 14 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/B_Z384SiYdc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=B_Z384SiYdc"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 17 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/SZSUvc8__nw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=SZSUvc8__nw"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 10 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/gyNBu1LvdI8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gyNBu1LvdI8"
-    },
-    {
-      "title": "RESTAURAÇÃO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 31 DE JULHO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/bhwKjKG1abY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=bhwKjKG1abY"
     }
   ],
   "current_live_stream": null
