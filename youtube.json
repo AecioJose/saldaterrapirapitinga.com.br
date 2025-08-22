@@ -1,22 +1,22 @@
 {
-  "ThursdaySeries": "culto série CONFERÊNCIA DE JOVENS ATOS NOW",
-  "last_updated": "2025-08-21T10:21:44.503077",
+  "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
+  "last_updated": "2025-08-22T02:13:57.530254",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O CORAÇÃO DO PAI | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:00 | 03 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/Wz6fgep4uHA/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=Wz6fgep4uHA"
+    },
+    {
+      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
+    },
     {
       "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | GABRIELL JÚNIOR | 15 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/60kz4klveHo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=60kz4klveHo"
-    },
-    {
-      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | DAVIDE GROSSO | 14 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/B_Z384SiYdc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=B_Z384SiYdc"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 17 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/SZSUvc8__nw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=SZSUvc8__nw"
     }
   ],
   "current_live_stream": null
