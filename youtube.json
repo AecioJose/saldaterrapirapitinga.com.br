@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2025-08-31T02:39:28.440229",
+  "last_updated": "2025-08-31T12:53:25.464498",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=60kz4klveHo"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DE AÇÕES DE GRAÇAS | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 31 DE AGOSTO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/k6m1kKNrLv0/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=k6m1kKNrLv0"
+  }
 }
