@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2025-08-31T12:53:25.464498",
+  "last_updated": "2025-08-31T21:53:03.748093",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE AÇÕES DE GRAÇAS | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 31 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/k6m1kKNrLv0/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=k6m1kKNrLv0"
+    },
     {
       "title": "O CORAÇÃO DO PAI | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:00 | 03 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Wz6fgep4uHA/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
-    },
-    {
-      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | GABRIELL JÚNIOR | 15 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/60kz4klveHo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=60kz4klveHo"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE AÇÕES DE GRAÇAS | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 31 DE AGOSTO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/k6m1kKNrLv0/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=k6m1kKNrLv0"
-  }
+  "current_live_stream": null
 }
