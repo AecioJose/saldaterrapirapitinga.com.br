@@ -1,27 +1,23 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2025-08-31T22:42:28.973876",
+  "last_updated": "2025-09-01T02:32:47.903788",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "CULTO DE AÇÕES DE GRAÇAS | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 31 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/k6m1kKNrLv0/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/k6m1kKNrLv0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=k6m1kKNrLv0"
+    },
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 31 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/Edun390308U/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=Edun390308U"
     },
     {
       "title": "O CORAÇÃO DO PAI | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:00 | 03 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Wz6fgep4uHA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Wz6fgep4uHA"
-    },
-    {
-      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 31 DE AGOSTO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/Edun390308U/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=Edun390308U"
-  }
+  "current_live_stream": null
 }
