@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-07T21:53:09.176810",
+  "last_updated": "2025-09-07T22:41:01.591516",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=k6m1kKNrLv0"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 07 DE SETEMBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/DzwDSAvCCvk/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=DzwDSAvCCvk"
+  }
 }
