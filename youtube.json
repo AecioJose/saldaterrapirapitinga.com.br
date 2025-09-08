@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-07T22:41:01.591516",
+  "last_updated": "2025-09-08T02:18:05.426415",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 07 DE SETEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/DzwDSAvCCvk/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=DzwDSAvCCvk"
+    },
     {
       "title": "DEUS CONOSCO | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 04 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/5BO94NA_CR8/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 31 DE AGOSTO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Edun390308U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Edun390308U"
-    },
-    {
-      "title": "CULTO DE AÇÕES DE GRAÇAS | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 31 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/k6m1kKNrLv0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=k6m1kKNrLv0"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 07 DE SETEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/DzwDSAvCCvk/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=DzwDSAvCCvk"
-  }
+  "current_live_stream": null
 }
