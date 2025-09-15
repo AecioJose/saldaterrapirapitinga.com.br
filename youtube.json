@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-14T22:40:37.071425",
+  "last_updated": "2025-09-15T02:19:07.614185",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 14 DE SETEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/Cc85um9SqCE/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=Cc85um9SqCE"
+    },
     {
       "title": "DEUS CONOSCO | MINISTRAÇÃO | JOANA DARC | 19:30 | 11 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/G1VNuzc5vSo/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 07 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/DzwDSAvCCvk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=DzwDSAvCCvk"
-    },
-    {
-      "title": "DEUS CONOSCO | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 04 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/5BO94NA_CR8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=5BO94NA_CR8"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 14 DE SETEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/Cc85um9SqCE/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=Cc85um9SqCE"
-  }
+  "current_live_stream": null
 }
