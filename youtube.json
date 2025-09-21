@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-21T21:52:43.375406",
+  "last_updated": "2025-09-21T22:41:55.991129",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=DzwDSAvCCvk"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 21 DE SETEMBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/MEhDSVroGfg/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=MEhDSVroGfg"
+  }
 }
