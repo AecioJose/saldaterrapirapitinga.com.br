@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-21T22:41:55.991129",
+  "last_updated": "2025-09-22T02:20:29.083512",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 21 DE SETEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/MEhDSVroGfg/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=MEhDSVroGfg"
+    },
     {
       "title": "DEUS CONOSCO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 18 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/iWacFsIsVtU/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 14 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Cc85um9SqCE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Cc85um9SqCE"
-    },
-    {
-      "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 07 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/DzwDSAvCCvk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=DzwDSAvCCvk"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 21 DE SETEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/MEhDSVroGfg/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=MEhDSVroGfg"
-  }
+  "current_live_stream": null
 }
