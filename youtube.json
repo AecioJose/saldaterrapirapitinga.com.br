@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-25T10:20:53.327258",
+  "last_updated": "2025-09-26T02:01:28.112194",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "DEUS CONOSCO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 25 DE SETEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/IOMxdWkSKXg/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=IOMxdWkSKXg"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 21 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/MEhDSVroGfg/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "DEUS CONOSCO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 18 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/iWacFsIsVtU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=iWacFsIsVtU"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 14 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/Cc85um9SqCE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Cc85um9SqCE"
     }
   ],
   "current_live_stream": null
