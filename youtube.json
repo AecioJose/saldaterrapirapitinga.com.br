@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-28T21:53:06.757007",
+  "last_updated": "2025-09-28T22:41:30.103150",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=iWacFsIsVtU"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 28 DE SETEMBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/-lHEe0hsfk8/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=-lHEe0hsfk8"
+  }
 }
