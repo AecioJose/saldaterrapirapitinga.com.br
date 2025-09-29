@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-09-28T22:41:30.103150",
+  "last_updated": "2025-09-29T02:15:17.793264",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 28 DE SETEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/-lHEe0hsfk8/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=-lHEe0hsfk8"
+    },
     {
       "title": "DEUS CONOSCO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 25 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/IOMxdWkSKXg/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 21 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/MEhDSVroGfg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=MEhDSVroGfg"
-    },
-    {
-      "title": "DEUS CONOSCO | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 18 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/iWacFsIsVtU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=iWacFsIsVtU"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 28 DE SETEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/-lHEe0hsfk8/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=-lHEe0hsfk8"
-  }
+  "current_live_stream": null
 }
