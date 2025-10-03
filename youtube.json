@@ -1,22 +1,22 @@
 {
-  "ThursdaySeries": "culto série DEUS CONOSCO",
-  "last_updated": "2025-10-02T10:19:39.070229",
+  "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
+  "last_updated": "2025-10-03T01:59:00.846663",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 02 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/i87dfk5tWhk/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=i87dfk5tWhk"
+    },
+    {
+      "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 02 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/7Yzz6zeKIcQ/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=7Yzz6zeKIcQ"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 28 DE SETEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/-lHEe0hsfk8/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=-lHEe0hsfk8"
-    },
-    {
-      "title": "DEUS CONOSCO | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 25 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/IOMxdWkSKXg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=IOMxdWkSKXg"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 21 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/MEhDSVroGfg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=MEhDSVroGfg"
     }
   ],
   "current_live_stream": null
