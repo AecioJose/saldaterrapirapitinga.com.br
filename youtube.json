@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-05T21:53:19.591259",
+  "last_updated": "2025-10-05T22:41:11.808199",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=-lHEe0hsfk8"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DE CEIA| MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 05 DE OUTUBRO  DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/TvGGiSG2NCU/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=TvGGiSG2NCU"
+  }
 }
