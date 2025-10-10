@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-09T10:21:43.423824",
+  "last_updated": "2025-10-10T02:01:32.481199",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "AS VERDADES DO EVANGELHO| MINISTRAÇÃO | VICTOR FARIA | 19:30 | 09 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/bbE2Wj4E1cI/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=bbE2Wj4E1cI"
+    },
     {
       "title": "CULTO DE CEIA| MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 05 DE OUTUBRO  DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/TvGGiSG2NCU/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 02 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/i87dfk5tWhk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=i87dfk5tWhk"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 28 DE SETEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/-lHEe0hsfk8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-lHEe0hsfk8"
     }
   ],
   "current_live_stream": null
