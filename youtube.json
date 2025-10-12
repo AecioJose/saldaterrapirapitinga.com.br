@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-12T12:52:32.629923",
+  "last_updated": "2025-10-12T21:53:14.554456",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
+    },
     {
       "title": "AS VERDADES DO EVANGELHO| MINISTRAÇÃO | VICTOR FARIA | 19:30 | 09 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/bbE2Wj4E1cI/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DE CEIA| MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 05 DE OUTUBRO  DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/TvGGiSG2NCU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=TvGGiSG2NCU"
-    },
-    {
-      "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 02 DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/i87dfk5tWhk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=i87dfk5tWhk"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
-  }
+  "current_live_stream": null
 }
