@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-12T21:53:14.554456",
+  "last_updated": "2025-10-12T22:41:19.028251",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=TvGGiSG2NCU"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DE ANIVERSARIO 12 ANOS| MINISTRAÇÃO | MARCOS ROCHA | 19:00 | 12 DE OUTUBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/w3e2d67dQEs/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=w3e2d67dQEs"
+  }
 }
