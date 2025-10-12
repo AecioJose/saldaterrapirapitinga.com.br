@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-12T02:26:14.679018",
+  "last_updated": "2025-10-12T12:52:32.629923",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=i87dfk5tWhk"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
+  }
 }
