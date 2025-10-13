@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-12T22:41:19.028251",
+  "last_updated": "2025-10-13T02:20:04.398554",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE ANIVERSARIO 12 ANOS| MINISTRAÇÃO | MARCOS ROCHA | 19:00 | 12 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/w3e2d67dQEs/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=w3e2d67dQEs"
+    },
     {
       "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault_live.jpg",
@@ -12,16 +17,7 @@
       "title": "AS VERDADES DO EVANGELHO| MINISTRAÇÃO | VICTOR FARIA | 19:30 | 09 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/bbE2Wj4E1cI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=bbE2Wj4E1cI"
-    },
-    {
-      "title": "CULTO DE CEIA| MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 05 DE OUTUBRO  DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/TvGGiSG2NCU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TvGGiSG2NCU"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE ANIVERSARIO 12 ANOS| MINISTRAÇÃO | MARCOS ROCHA | 19:00 | 12 DE OUTUBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/w3e2d67dQEs/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=w3e2d67dQEs"
-  }
+  "current_live_stream": null
 }
