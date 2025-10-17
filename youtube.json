@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-16T10:22:58.845794",
+  "last_updated": "2025-10-17T02:02:34.382452",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 |16 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/9Vezz-vjUGY/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=9Vezz-vjUGY"
+    },
     {
       "title": "CULTO DE ANIVERSARIO 12 ANOS| MINISTRAÇÃO | MARCOS ROCHA | 19:00 | 12 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/w3e2d67dQEs/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
-    },
-    {
-      "title": "AS VERDADES DO EVANGELHO| MINISTRAÇÃO | VICTOR FARIA | 19:30 | 09 DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/bbE2Wj4E1cI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=bbE2Wj4E1cI"
     }
   ],
   "current_live_stream": null
