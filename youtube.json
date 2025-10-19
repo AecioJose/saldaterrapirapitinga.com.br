@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-19T21:53:19.247895",
+  "last_updated": "2025-10-19T22:42:12.805828",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 19 DE OUTUBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/UZBEjIJQ040/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=UZBEjIJQ040"
+  }
 }
