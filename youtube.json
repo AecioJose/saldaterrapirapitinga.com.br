@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-19T22:42:12.805828",
+  "last_updated": "2025-10-20T02:24:07.762816",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 19 DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/UZBEjIJQ040/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=UZBEjIJQ040"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 |16 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/9Vezz-vjUGY/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DE ANIVERSARIO 12 ANOS| MINISTRAÇÃO | MARCOS ROCHA | 19:00 | 12 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/w3e2d67dQEs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=w3e2d67dQEs"
-    },
-    {
-      "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 19 DE OUTUBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/UZBEjIJQ040/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=UZBEjIJQ040"
-  }
+  "current_live_stream": null
 }
