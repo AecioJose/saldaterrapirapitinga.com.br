@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-26T21:53:31.080262",
+  "last_updated": "2025-10-26T22:43:13.352209",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 |26  DE OUTUBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/OUlpq-lIs_o/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=OUlpq-lIs_o"
+  }
 }
