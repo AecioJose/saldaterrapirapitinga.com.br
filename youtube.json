@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-10-26T22:43:13.352209",
+  "last_updated": "2025-10-27T02:27:46.914874",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 26  DE OUTUBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/OUlpq-lIs_o/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=OUlpq-lIs_o"
+    },
     {
       "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | VANESSA TORQUATO | 19:30 | 23 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/4qjzjcYDVeY/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DE ANIVERSARIO 12 ANOS| MINISTRAÇÃO | MARCOS ROCHA | 19:00 | 12 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/w3e2d67dQEs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=w3e2d67dQEs"
-    },
-    {
-      "title": "CULTO DE BATISMO  | MINISTRAÇÃO | LÚCIO CAMILLO | 09:00 | 12 DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/QtsX6kHfTGY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=QtsX6kHfTGY"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 |26  DE OUTUBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/OUlpq-lIs_o/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=OUlpq-lIs_o"
-  }
+  "current_live_stream": null
 }
