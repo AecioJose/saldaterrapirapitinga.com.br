@@ -1,27 +1,23 @@
 {
   "ThursdaySeries": "culto série AS VERDADES DO EVANGELHO",
-  "last_updated": "2025-11-02T22:42:20.765193",
+  "last_updated": "2025-11-03T02:25:23.952079",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 02 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/TJA4lbzOLD4/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=TJA4lbzOLD4"
+    },
     {
       "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | DIEGO LEONEL | 19:30 | 30 DE OUTUBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/ucgB6YaixXM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ucgB6YaixXM"
     },
     {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 26  DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/OUlpq-lIs_o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=OUlpq-lIs_o"
-    },
-    {
-      "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | VANESSA TORQUATO | 19:30 | 23 DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/4qjzjcYDVeY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=4qjzjcYDVeY"
+      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 02 DE NOVEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/TJA4lbzOLD4/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=TJA4lbzOLD4"
-  }
+  "current_live_stream": null
 }
