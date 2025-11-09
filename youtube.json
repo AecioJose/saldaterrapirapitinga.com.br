@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-09T21:53:06.808718",
+  "last_updated": "2025-11-09T22:42:47.331196",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=ucgB6YaixXM"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 09 DE NOVEMBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/BP-VfKvfgJ0/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=BP-VfKvfgJ0"
+  }
 }
