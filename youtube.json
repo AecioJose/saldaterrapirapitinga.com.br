@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-09T22:42:47.331196",
+  "last_updated": "2025-11-10T02:26:24.264530",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 09 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/BP-VfKvfgJ0/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=BP-VfKvfgJ0"
+    },
     {
       "title": "O FOGO DE DEUS | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 06 DE NOVEMBRO",
       "thumbnail": "https://i.ytimg.com/vi/0MGqwPXanzA/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 02 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/TJA4lbzOLD4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=TJA4lbzOLD4"
-    },
-    {
-      "title": "AS VERDADES DO EVANGELHO | MINISTRAÇÃO | DIEGO LEONEL | 19:30 | 30 DE OUTUBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/ucgB6YaixXM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ucgB6YaixXM"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 09 DE NOVEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/BP-VfKvfgJ0/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=BP-VfKvfgJ0"
-  }
+  "current_live_stream": null
 }
