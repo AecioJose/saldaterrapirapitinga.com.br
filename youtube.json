@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-13T10:24:27.742402",
+  "last_updated": "2025-11-14T02:16:05.906738",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 09 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/BP-VfKvfgJ0/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O FOGO DE DEUS | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 06 DE NOVEMBRO",
       "thumbnail": "https://i.ytimg.com/vi/0MGqwPXanzA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=0MGqwPXanzA"
-    },
-    {
-      "title": "CULTO DE CEIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 02 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/TJA4lbzOLD4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TJA4lbzOLD4"
     }
   ],
   "current_live_stream": null
