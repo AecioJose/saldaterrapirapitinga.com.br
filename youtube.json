@@ -1,22 +1,22 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-14T10:23:51.251628",
+  "last_updated": "2025-11-15T02:27:01.511142",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
+      "title": "CONF UM NOVO TEMPO | MINISTRAÇÃO | RAIQUE CARMELO | 19:00 | 14 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/9mD2v9isEPo/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=9mD2v9isEPo"
+    },
+    {
       "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
     },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 09 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/BP-VfKvfgJ0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=BP-VfKvfgJ0"
-    },
-    {
-      "title": "O FOGO DE DEUS | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 06 DE NOVEMBRO",
-      "thumbnail": "https://i.ytimg.com/vi/0MGqwPXanzA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=0MGqwPXanzA"
     }
   ],
   "current_live_stream": null
