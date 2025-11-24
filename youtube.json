@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-23T22:44:07.585930",
+  "last_updated": "2025-11-24T02:30:17.392953",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 23 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/Wc3o4Ng1E0s/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=Wc3o4Ng1E0s"
+    },
     {
       "title": "O FOGO DE DEUS | MINISTRAÇÃO | TIAGO ESPÍNDOLA | 19:30 | 20 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Q8DMtFH7DSk/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 16 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Ow64HpTwijs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Ow64HpTwijs"
-    },
-    {
-      "title": "CONF UM NOVO TEMPO | MINISTRAÇÃO | RAIQUE CARMELO | 19:00 | 14 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/9mD2v9isEPo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=9mD2v9isEPo"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 23 DE NOVEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/Wc3o4Ng1E0s/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=Wc3o4Ng1E0s"
-  }
+  "current_live_stream": null
 }
