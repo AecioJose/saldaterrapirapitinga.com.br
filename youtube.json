@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-27T10:24:49.490821",
+  "last_updated": "2025-11-28T02:13:52.474025",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O FOGO DE DEUS | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 27 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/SSqmLOwKyIg/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=SSqmLOwKyIg"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 23 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Wc3o4Ng1E0s/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O FOGO DE DEUS | MINISTRAÇÃO | TIAGO ESPÍNDOLA | 19:30 | 20 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/Q8DMtFH7DSk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Q8DMtFH7DSk"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 16 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/Ow64HpTwijs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Ow64HpTwijs"
     }
   ],
   "current_live_stream": null
