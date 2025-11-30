@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-11-30T21:53:05.708414",
+  "last_updated": "2025-11-30T22:44:17.669202",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=Q8DMtFH7DSk"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 30 DE NOVEMBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/CBplh3PUY0E/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=CBplh3PUY0E"
+  }
 }
