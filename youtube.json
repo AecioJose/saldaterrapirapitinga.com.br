@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série O FOGO DE DEUS",
-  "last_updated": "2025-12-04T10:26:54.515950",
+  "ThursdaySeries": "culto série RUMO AO QUE DEUS PREPAROU",
+  "last_updated": "2025-12-05T02:20:07.956317",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 04 DE DEZEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/-LGfrURaJec/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=-LGfrURaJec"
+    },
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 30 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/CBplh3PUY0E/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O FOGO DE DEUS | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 27 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/SSqmLOwKyIg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=SSqmLOwKyIg"
-    },
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 23 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/Wc3o4Ng1E0s/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Wc3o4Ng1E0s"
     }
   ],
   "current_live_stream": null
