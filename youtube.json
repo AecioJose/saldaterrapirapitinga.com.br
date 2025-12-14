@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RUMO AO QUE DEUS PREPAROU",
-  "last_updated": "2025-12-14T21:52:57.960532",
+  "last_updated": "2025-12-14T22:43:47.518355",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=T2RbkmxN1g0"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 14 DE DEZEMBRO DE 2025",
+    "thumbnail": "https://i.ytimg.com/vi/4tG1VItPExY/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=4tG1VItPExY"
+  }
 }
