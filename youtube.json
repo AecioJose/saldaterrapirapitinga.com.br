@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RUMO AO QUE DEUS PREPAROU",
-  "last_updated": "2025-12-21T22:45:26.216471",
+  "last_updated": "2025-12-22T02:36:11.408052",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "TEATRO DE NATAL | MINISTRAÇÃO FINAL | GILBERTO FARIA | 19:00 | 21 DE DEZEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/rRbQV1Wm_Ik/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=rRbQV1Wm_Ik"
+    },
     {
       "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO |MICHEL NASCIMENTO | 19:30 | 18 DE DEZEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/1jTesmR7lHM/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO | Victor Faria| 19:30 | 11 DE DEZEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/VupTJbs080E/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=VupTJbs080E"
-    },
-    {
-      "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO | Victor Faria| 19:30 | 11 DE DEZEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/sG4KLP5eOgY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=sG4KLP5eOgY"
     }
   ],
-  "current_live_stream": {
-    "title": "TEATRO DE NATAL | MINISTRAÇÃO FINAL | GILBERTO FARIA | 19:00 | 21 DE DEZEMBRO DE 2025",
-    "thumbnail": "https://i.ytimg.com/vi/rRbQV1Wm_Ik/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=rRbQV1Wm_Ik"
-  }
+  "current_live_stream": null
 }
