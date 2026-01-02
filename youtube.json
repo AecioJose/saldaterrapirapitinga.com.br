@@ -1,13 +1,8 @@
 {
   "ThursdaySeries": "culto série RUMO AO QUE DEUS PREPAROU",
-  "last_updated": "2026-01-01T10:25:07.529737",
+  "last_updated": "2026-01-02T02:28:01.690227",
   "latest_videos": [],
   "latest_completed_live_streams": [
-    {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 28 DE DEZEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/wQWt4RY26ao/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=wQWt4RY26ao"
-    },
     {
       "title": "TEATRO DE NATAL | MINISTRAÇÃO FINAL | GILBERTO FARIA | 19:00 | 21 DE DEZEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/rRbQV1Wm_Ik/hqdefault.jpg",
@@ -17,6 +12,11 @@
       "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO |MICHEL NASCIMENTO | 19:30 | 18 DE DEZEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/1jTesmR7lHM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=1jTesmR7lHM"
+    },
+    {
+      "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO | Victor Faria| 19:30 | 11 DE DEZEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/VupTJbs080E/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=VupTJbs080E"
     }
   ],
   "current_live_stream": null
