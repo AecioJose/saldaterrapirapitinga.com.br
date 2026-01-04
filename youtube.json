@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RUMO AO QUE DEUS PREPAROU",
-  "last_updated": "2026-01-04T21:53:11.810876",
+  "last_updated": "2026-01-04T22:46:38.251852",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=VupTJbs080E"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 04 DE JANEIRO DE 2026",
+    "thumbnail": "https://i.ytimg.com/vi/iEVt6iHPD1c/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=iEVt6iHPD1c"
+  }
 }
