@@ -1,22 +1,22 @@
 {
-  "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-01-12T10:27:49.314952",
+  "ThursdaySeries": "culto série RUMO AO QUE DEUS PREPAROU",
+  "last_updated": "2026-01-13T10:26:40.067245",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 11 DE JANEIRO DE 2026",
-      "thumbnail": "https://i.ytimg.com/vi/Pe__yUqVOBI/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/Pe__yUqVOBI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Pe__yUqVOBI"
-    },
-    {
-      "title": "CONDUZIDOS PELA PRESENÇA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:30 | 08 DE JANEIRO DE 2026",
-      "thumbnail": "https://i.ytimg.com/vi/fJph6eJ8y_8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fJph6eJ8y_8"
     },
     {
       "title": "TEATRO DE NATAL | MINISTRAÇÃO FINAL | GILBERTO FARIA | 19:00 | 21 DE DEZEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/rRbQV1Wm_Ik/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=rRbQV1Wm_Ik"
+    },
+    {
+      "title": "RUMO AO QUE DEUS PREPAROU | MINISTRAÇÃO |MICHEL NASCIMENTO | 19:30 | 18 DE DEZEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/1jTesmR7lHM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1jTesmR7lHM"
     }
   ],
   "current_live_stream": null
