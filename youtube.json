@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-01-18T13:00:31.482540",
+  "last_updated": "2026-01-18T21:53:10.105843",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=rRbQV1Wm_Ik"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 18 DE JANEIRO DE 2026",
+    "thumbnail": "https://i.ytimg.com/vi/8cTS7DSO230/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=8cTS7DSO230"
+  }
 }
