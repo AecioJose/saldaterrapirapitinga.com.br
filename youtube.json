@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-01-18T22:46:12.727689",
+  "last_updated": "2026-01-19T02:56:06.875826",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 18 DE JANEIRO DE 2026",
+      "thumbnail": "https://i.ytimg.com/vi/8cTS7DSO230/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=8cTS7DSO230"
+    },
     {
       "title": "CONDUZIDOS PELA PRESENÇA | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 15 DE JANEIRO DE 2026",
       "thumbnail": "https://i.ytimg.com/vi/W9GwuAe8BRk/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 11 DE JANEIRO DE 2026",
       "thumbnail": "https://i.ytimg.com/vi/Pe__yUqVOBI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Pe__yUqVOBI"
-    },
-    {
-      "title": "TEATRO DE NATAL | MINISTRAÇÃO FINAL | GILBERTO FARIA | 19:00 | 21 DE DEZEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/rRbQV1Wm_Ik/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=rRbQV1Wm_Ik"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 18 DE JANEIRO DE 2026",
-    "thumbnail": "https://i.ytimg.com/vi/8cTS7DSO230/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=8cTS7DSO230"
-  }
+  "current_live_stream": null
 }
