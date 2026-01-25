@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-01-25T21:53:04.986458",
+  "last_updated": "2026-01-25T22:47:33.799656",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=W9GwuAe8BRk"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 25 DE JANEIRO DE 2026",
+    "thumbnail": "https://i.ytimg.com/vi/MxUVN1YU6yc/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=MxUVN1YU6yc"
+  }
 }
