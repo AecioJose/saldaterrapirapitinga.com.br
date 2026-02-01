@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-02-01T13:12:47.121585",
+  "last_updated": "2026-02-01T21:56:44.963241",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=uwaG9fKZUGo"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "O PAI ME ESPERA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/UcGePQPSPmc/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=UcGePQPSPmc"
+  }
 }
