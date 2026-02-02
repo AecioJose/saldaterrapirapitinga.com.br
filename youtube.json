@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-02-01T22:54:05.824092",
+  "last_updated": "2026-02-02T03:31:52.582325",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O PAI ME ESPERA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/UcGePQPSPmc/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=UcGePQPSPmc"
+    },
     {
       "title": "CONDUZIDOS PELA PRESENÇA | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 29 DE JANEIRO DE 2026",
       "thumbnail": "https://i.ytimg.com/vi/u_hvPg6Pft0/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | GILBERTO FARIA | 19:00 | 25 DE JANEIRO DE 2026",
       "thumbnail": "https://i.ytimg.com/vi/MxUVN1YU6yc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=MxUVN1YU6yc"
-    },
-    {
-      "title": "CONDUZIDOS PELA PRESENÇA | MINISTRAÇÃO | JOANA DARC CAPANEMA| 19:30 | 22 DE JANEIRO DE 2026",
-      "thumbnail": "https://i.ytimg.com/vi/uwaG9fKZUGo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=uwaG9fKZUGo"
     }
   ],
-  "current_live_stream": {
-    "title": "O PAI ME ESPERA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/UcGePQPSPmc/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=UcGePQPSPmc"
-  }
+  "current_live_stream": null
 }
