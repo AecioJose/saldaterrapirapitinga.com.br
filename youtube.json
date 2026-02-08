@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-02-08T21:59:52.950023",
+  "last_updated": "2026-02-08T22:58:42.276564",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=MxUVN1YU6yc"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "DO POÇO AO PROPÓSITO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/ger2EDwCuS0/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=ger2EDwCuS0"
+  }
 }
