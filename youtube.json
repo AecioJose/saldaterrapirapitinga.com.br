@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série CONDUZIDOS PELA PRESENÇA",
-  "last_updated": "2026-02-12T10:49:45.699503",
+  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
+  "last_updated": "2026-02-13T03:22:51.710588",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "VIDA NO ESPÍRITO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/1sk_odsbUmg/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=1sk_odsbUmg"
+    },
     {
       "title": "DO POÇO AO PROPÓSITO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/ger2EDwCuS0/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O PAI ME ESPERA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/UcGePQPSPmc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=UcGePQPSPmc"
-    },
-    {
-      "title": "CONDUZIDOS PELA PRESENÇA | MINISTRAÇÃO | MICHEL NASCIMENTO | 19:30 | 29 DE JANEIRO DE 2026",
-      "thumbnail": "https://i.ytimg.com/vi/u_hvPg6Pft0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=u_hvPg6Pft0"
     }
   ],
   "current_live_stream": null
