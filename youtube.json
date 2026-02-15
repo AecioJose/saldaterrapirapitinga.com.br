@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-02-15T21:58:14.495055",
+  "last_updated": "2026-02-15T22:54:47.207972",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=UcGePQPSPmc"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "GOVERNO DO ESPÍRITO | LUCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/10f-DsYZGiw/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=10f-DsYZGiw"
+  }
 }
