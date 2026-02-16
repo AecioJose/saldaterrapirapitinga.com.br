@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-02-15T22:54:47.207972",
+  "last_updated": "2026-02-16T03:32:04.200042",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "GOVERNO DO ESPÍRITO | LUCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/10f-DsYZGiw/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=10f-DsYZGiw"
+    },
     {
       "title": "VIDA NO ESPÍRITO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/1sk_odsbUmg/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "DO POÇO AO PROPÓSITO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/ger2EDwCuS0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ger2EDwCuS0"
-    },
-    {
-      "title": "O PAI ME ESPERA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/UcGePQPSPmc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=UcGePQPSPmc"
     }
   ],
-  "current_live_stream": {
-    "title": "GOVERNO DO ESPÍRITO | LUCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/10f-DsYZGiw/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=10f-DsYZGiw"
-  }
+  "current_live_stream": null
 }
