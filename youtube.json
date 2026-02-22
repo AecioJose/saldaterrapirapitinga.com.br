@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-02-22T03:37:18.756770",
+  "last_updated": "2026-02-22T13:13:11.450427",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=ger2EDwCuS0"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "OS SETE BATISMOS DE NAAMÂ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/u3jAx_CnvbI/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=u3jAx_CnvbI"
+  }
 }
