@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-02-22T13:13:11.450427",
+  "last_updated": "2026-02-22T21:57:50.414423",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "OS SETE BATISMOS DE NAAMÂ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/u3jAx_CnvbI/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=u3jAx_CnvbI"
+    },
     {
       "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
@@ -12,16 +17,11 @@
       "title": "VIDA NO ESPÍRITO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/1sk_odsbUmg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=1sk_odsbUmg"
-    },
-    {
-      "title": "DO POÇO AO PROPÓSITO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/ger2EDwCuS0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ger2EDwCuS0"
     }
   ],
   "current_live_stream": {
-    "title": "OS SETE BATISMOS DE NAAMÂ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/u3jAx_CnvbI/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=u3jAx_CnvbI"
+    "title": "RESET DE DEUS | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/3uHhNGZXqW0/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=3uHhNGZXqW0"
   }
 }
