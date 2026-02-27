@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-02-26T10:49:42.505579",
+  "last_updated": "2026-02-27T03:09:02.989760",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "VIDA NO ESPÍRITO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/Vtfu5045-UM/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=Vtfu5045-UM"
+    },
     {
       "title": "RESET DE DEUS | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/3uHhNGZXqW0/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "OS SETE BATISMOS DE NAAMÂ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/u3jAx_CnvbI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=u3jAx_CnvbI"
-    },
-    {
-      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
     }
   ],
   "current_live_stream": null
