@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-03-01T21:55:30.078431",
+  "last_updated": "2026-03-01T22:52:14.667159",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=u3jAx_CnvbI"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "QUANDO JESUS REESCREVE A HISTÓRIA DE UMA FAMILIA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/udriyiAmxyI/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=udriyiAmxyI"
+  }
 }
