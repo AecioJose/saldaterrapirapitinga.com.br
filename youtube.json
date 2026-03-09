@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série MULHERES NA PRESENÇA 2026",
-  "last_updated": "2026-03-08T22:52:08.839751",
+  "last_updated": "2026-03-09T03:23:24.267206",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "ESCONDIDO MAS NUNCA ESQUECIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/4wZrfcAey6c/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=4wZrfcAey6c"
+    },
     {
       "title": "MULHERES NA PRESENÇA 2026 | JAQUELINE CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/X_LjZ0WPg5U/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "VIDA NO ESPÍRITO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/Vtfu5045-UM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Vtfu5045-UM"
-    },
-    {
-      "title": "RESET DE DEUS | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/3uHhNGZXqW0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3uHhNGZXqW0"
     }
   ],
-  "current_live_stream": {
-    "title": "ESCONDIDO MAS NUNCA ESQUECIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/4wZrfcAey6c/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=4wZrfcAey6c"
-  }
+  "current_live_stream": null
 }
