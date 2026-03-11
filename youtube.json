@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série MULHERES NA PRESENÇA 2026",
-  "last_updated": "2026-03-10T10:40:56.203965",
+  "last_updated": "2026-03-11T10:41:14.819276",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "MULHERES NA PRESENÇA 2026 | FRANCISCA SANTOS | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/TA6SSj4VOkY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TA6SSj4VOkY"
+    },
     {
       "title": "ESCONDIDO MAS NUNCA ESQUECIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/4wZrfcAey6c/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "MULHERES NA PRESENÇA 2026 | JAQUELINE CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/X_LjZ0WPg5U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=X_LjZ0WPg5U"
-    },
-    {
-      "title": "VIDA NO ESPÍRITO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/Vtfu5045-UM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Vtfu5045-UM"
     }
   ],
   "current_live_stream": null
