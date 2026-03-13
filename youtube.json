@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série MULHERES NA PRESENÇA 2026",
-  "last_updated": "2026-03-12T10:40:43.637948",
+  "ThursdaySeries": "culto série O CORDEIRO",
+  "last_updated": "2026-03-13T03:08:30.977515",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O CORDEIRO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/UzuO-1hsUvA/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=UzuO-1hsUvA"
+    },
     {
       "title": "MULHERES NA PRESENÇA 2026 | FRANCISCA SANTOS | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/TA6SSj4VOkY/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "ESCONDIDO MAS NUNCA ESQUECIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/4wZrfcAey6c/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=4wZrfcAey6c"
-    },
-    {
-      "title": "MULHERES NA PRESENÇA 2026 | JAQUELINE CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/X_LjZ0WPg5U/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=X_LjZ0WPg5U"
     }
   ],
   "current_live_stream": null
