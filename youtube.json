@@ -1,22 +1,22 @@
 {
   "ThursdaySeries": "culto série O CORDEIRO",
-  "last_updated": "2026-03-13T10:38:51.874359",
+  "last_updated": "2026-03-14T03:25:49.651702",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
+      "title": "MULHERES NA PRESENÇA 2026 | ÁQUILA AMORIM | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/yCFOIrP7AEQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yCFOIrP7AEQ"
+    },
+    {
       "title": "O CORDEIRO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/UzuO-1hsUvA/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/UzuO-1hsUvA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=UzuO-1hsUvA"
     },
     {
       "title": "MULHERES NA PRESENÇA 2026 | FRANCISCA SANTOS | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/TA6SSj4VOkY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=TA6SSj4VOkY"
-    },
-    {
-      "title": "ESCONDIDO MAS NUNCA ESQUECIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/4wZrfcAey6c/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=4wZrfcAey6c"
     }
   ],
   "current_live_stream": null
