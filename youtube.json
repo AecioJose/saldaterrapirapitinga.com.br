@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O CORDEIRO",
-  "last_updated": "2026-03-15T13:16:58.026685",
+  "last_updated": "2026-03-15T21:59:47.766447",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=TA6SSj4VOkY"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "JESUS VÊ O HOMEM | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/EbFpF5q1Jz8/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=EbFpF5q1Jz8"
+  }
 }
