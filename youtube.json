@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O CORDEIRO",
-  "last_updated": "2026-03-22T13:14:27.061964",
+  "last_updated": "2026-03-22T21:58:26.715193",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=UzuO-1hsUvA"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "ENTRE A DESCULPA E A DECISÃO | LÚCIO CAMILLO| PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/e1YfbLH9jJg/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=e1YfbLH9jJg"
+  }
 }
