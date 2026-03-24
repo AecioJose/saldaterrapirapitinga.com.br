@@ -1,22 +1,22 @@
 {
   "ThursdaySeries": "culto série O CORDEIRO",
-  "last_updated": "2026-03-23T10:53:09.359075",
+  "last_updated": "2026-03-24T10:53:14.248393",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "ENTRE A DESCULPA E A DECISÃO | LÚCIO CAMILLO| PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/e1YfbLH9jJg/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/e1YfbLH9jJg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=e1YfbLH9jJg"
-    },
-    {
-      "title": "O CORDEIRO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/Te9X-WaghSY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Te9X-WaghSY"
     },
     {
       "title": "MULHERES NA PRESENÇA 2026 | ÁQUILA AMORIM | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/yCFOIrP7AEQ/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=yCFOIrP7AEQ"
+    },
+    {
+      "title": "O CORDEIRO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/UzuO-1hsUvA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=UzuO-1hsUvA"
     }
   ],
   "current_live_stream": null
