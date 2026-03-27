@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O CORDEIRO",
-  "last_updated": "2026-03-26T10:53:15.663312",
+  "last_updated": "2026-03-27T03:30:12.558374",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O CORDEIRO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/f_TVze4OGFg/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=f_TVze4OGFg"
+    },
     {
       "title": "ENTRE A DESCULPA E A DECISÃO | LÚCIO CAMILLO| PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/e1YfbLH9jJg/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "MULHERES NA PRESENÇA 2026 | ÁQUILA AMORIM | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/yCFOIrP7AEQ/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=yCFOIrP7AEQ"
-    },
-    {
-      "title": "O CORDEIRO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/UzuO-1hsUvA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=UzuO-1hsUvA"
     }
   ],
   "current_live_stream": null
