@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série O CORDEIRO",
-  "last_updated": "2026-04-02T10:52:13.155431",
+  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
+  "last_updated": "2026-04-03T03:28:00.284298",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "VIDA NO ESPÍRITO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/n2vLgsM9EvA/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=n2vLgsM9EvA"
+    },
     {
       "title": "QUEM ESTÁ OUVINDO? | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/vvnxp3wqQ4A/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O CORDEIRO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/f_TVze4OGFg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=f_TVze4OGFg"
-    },
-    {
-      "title": "ENTRE A DESCULPA E A DECISÃO | LÚCIO CAMILLO| PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/e1YfbLH9jJg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=e1YfbLH9jJg"
     }
   ],
   "current_live_stream": null
