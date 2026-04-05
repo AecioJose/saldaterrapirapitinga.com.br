@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-04-05T13:30:29.456103",
+  "last_updated": "2026-04-05T22:01:28.297594",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=f_TVze4OGFg"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "ESTÁ CONSUMADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/0_7UrjXb4G4/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=0_7UrjXb4G4"
+  }
 }
