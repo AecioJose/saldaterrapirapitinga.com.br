@@ -1,22 +1,22 @@
 {
-  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-04-09T11:00:15.241994",
+  "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
+  "last_updated": "2026-04-10T03:42:02.119151",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "VENCENDO AS PROVAÇÕES | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/fXCBIyllSJo/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=fXCBIyllSJo"
+    },
     {
       "title": "ESTÁ CONSUMADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/0_7UrjXb4G4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=0_7UrjXb4G4"
     },
     {
-      "title": "VIDA NO ESPÍRITO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "title": "VENCENDO AS PROVAÇÕES | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/n2vLgsM9EvA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=n2vLgsM9EvA"
-    },
-    {
-      "title": "QUEM ESTÁ OUVINDO? | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/vvnxp3wqQ4A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=vvnxp3wqQ4A"
     }
   ],
   "current_live_stream": null
