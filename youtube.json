@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
-  "last_updated": "2026-04-12T13:35:14.710101",
+  "last_updated": "2026-04-12T22:04:03.984089",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=n2vLgsM9EvA"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A MENTE QUE ATRAI A GLÓRIA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/yobtTpKfso8/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=yobtTpKfso8"
+  }
 }
