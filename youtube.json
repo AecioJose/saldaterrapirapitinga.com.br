@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
-  "last_updated": "2026-04-12T23:04:48.947701",
+  "last_updated": "2026-04-13T04:01:56.059160",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "É MAIOR DO QUE EU PEDI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/yobtTpKfso8/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=yobtTpKfso8"
+    },
     {
       "title": "VENCENDO AS PROVAÇÕES | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/fXCBIyllSJo/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "ESTÁ CONSUMADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/0_7UrjXb4G4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=0_7UrjXb4G4"
-    },
-    {
-      "title": "VENCENDO AS PROVAÇÕES | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/n2vLgsM9EvA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=n2vLgsM9EvA"
     }
   ],
-  "current_live_stream": {
-    "title": "É MAIOR DO QUE EU PEDI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/yobtTpKfso8/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=yobtTpKfso8"
-  }
+  "current_live_stream": null
 }
