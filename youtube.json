@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
-  "last_updated": "2026-04-19T13:35:19.828975",
+  "last_updated": "2026-04-19T22:17:18.833835",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=fXCBIyllSJo"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "DEUS DECIDIU FAZER | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/5tHcKraiu-E/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=5tHcKraiu-E"
+  }
 }
