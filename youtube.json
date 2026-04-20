@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
-  "last_updated": "2026-04-19T23:06:24.284683",
+  "last_updated": "2026-04-20T04:01:40.597749",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "DEUS DECIDIU FAZER | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/5tHcKraiu-E/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=5tHcKraiu-E"
+    },
     {
       "title": "VENCENDO AS PROVAÇÕES | JOANA DARC CAPANEMA | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/Y4RYkgeUffY/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "É MAIOR DO QUE EU PEDI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/yobtTpKfso8/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=yobtTpKfso8"
-    },
-    {
-      "title": "VENCENDO AS PROVAÇÕES | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/fXCBIyllSJo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fXCBIyllSJo"
     }
   ],
-  "current_live_stream": {
-    "title": "DEUS DECIDIU FAZER | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/5tHcKraiu-E/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=5tHcKraiu-E"
-  }
+  "current_live_stream": null
 }
