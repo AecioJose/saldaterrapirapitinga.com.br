@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
-  "last_updated": "2026-05-03T13:50:11.998547",
+  "last_updated": "2026-05-03T22:24:21.196148",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=AWPfGGnIJ5w"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A TUA MESA CURA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/P0Xu32WXJGM/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=P0Xu32WXJGM"
+  }
 }
