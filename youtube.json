@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série VENCENDO AS PROVAÇÕES",
-  "last_updated": "2026-05-07T11:48:27.405969",
+  "ThursdaySeries": "culto série RESTITUIÇÃO",
+  "last_updated": "2026-05-08T03:54:14.987505",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/bt_lTsIhHQA/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=bt_lTsIhHQA"
+    },
     {
       "title": "A TUA MESA CURA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/P0Xu32WXJGM/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "VENCENDO AS PROVAÇÕES | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/FX4lYdbG_Ns/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=FX4lYdbG_Ns"
-    },
-    {
-      "title": "DEUS AINDA CHAMA SEU NOME | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/nRaQNx6fn-0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=nRaQNx6fn-0"
     }
   ],
   "current_live_stream": null
