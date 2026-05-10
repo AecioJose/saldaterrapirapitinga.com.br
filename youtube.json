@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-10T13:56:38.043282",
+  "last_updated": "2026-05-10T22:30:06.440338",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=FX4lYdbG_Ns"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A CRISE DE FÉ DE UM HOMEM SINCERO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/Cyfi8hcUYmw/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=Cyfi8hcUYmw"
+  }
 }
