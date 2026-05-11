@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-10T23:30:51.311405",
+  "last_updated": "2026-05-11T04:46:28.274792",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "A CRISE DE FÉ DE UM HOMEM SINCERO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/Cyfi8hcUYmw/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=Cyfi8hcUYmw"
+    },
     {
       "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/bt_lTsIhHQA/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "A TUA MESA CURA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/P0Xu32WXJGM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=P0Xu32WXJGM"
-    },
-    {
-      "title": "VENCENDO AS PROVAÇÕES | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/FX4lYdbG_Ns/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=FX4lYdbG_Ns"
     }
   ],
-  "current_live_stream": {
-    "title": "A CRISE DE FÉ DE UM HOMEM SINCERO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/Cyfi8hcUYmw/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=Cyfi8hcUYmw"
-  }
+  "current_live_stream": null
 }
