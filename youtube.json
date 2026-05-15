@@ -1,22 +1,22 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-14T11:53:12.730028",
+  "last_updated": "2026-05-15T04:18:17.621047",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "RESTITUIÇÃO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/6UpUp3GBWTU/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/6UpUp3GBWTU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6UpUp3GBWTU"
-    },
-    {
-      "title": "A CRISE DE FÉ DE UM HOMEM SINCERO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/Cyfi8hcUYmw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Cyfi8hcUYmw"
     },
     {
       "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/bt_lTsIhHQA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=bt_lTsIhHQA"
+    },
+    {
+      "title": "A TUA MESA CURA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/P0Xu32WXJGM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=P0Xu32WXJGM"
     }
   ],
   "current_live_stream": null
