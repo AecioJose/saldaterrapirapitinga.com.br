@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-17T13:58:37.317930",
+  "last_updated": "2026-05-17T22:37:39.218730",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=FX4lYdbG_Ns"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
+  }
 }
