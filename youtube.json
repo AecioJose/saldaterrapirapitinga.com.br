@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-17T23:32:49.235621",
+  "last_updated": "2026-05-18T04:54:30.257698",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
+    },
     {
       "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/bt_lTsIhHQA/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "A TUA MESA CURA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/P0Xu32WXJGM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=P0Xu32WXJGM"
-    },
-    {
-      "title": "VENCENDO AS PROVAÇÕES | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/FX4lYdbG_Ns/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=FX4lYdbG_Ns"
     }
   ],
-  "current_live_stream": {
-    "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
-  }
+  "current_live_stream": null
 }
