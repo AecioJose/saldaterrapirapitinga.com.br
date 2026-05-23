@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-23T22:37:47.954106",
+  "last_updated": "2026-05-23T23:33:06.331906",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -9,14 +9,14 @@
       "url": "https://www.youtube.com/watch?v=RUS1RXuPVQ0"
     },
     {
-      "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
-    },
-    {
       "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/bt_lTsIhHQA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=bt_lTsIhHQA"
+    },
+    {
+      "title": "A TUA MESA CURA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/P0Xu32WXJGM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=P0Xu32WXJGM"
     }
   ],
   "current_live_stream": null
