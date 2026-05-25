@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-24T23:35:52.187246",
+  "last_updated": "2026-05-25T05:09:39.974322",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "PENTECOSTES O CÉU INVADINDO HOMENS COMUNS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/J41XUA33pes/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=J41XUA33pes"
+    },
     {
       "title": "RESTITUIÇÃO | ROGÉRIO VALENTINI | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/RUS1RXuPVQ0/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
-    },
-    {
-      "title": "RESTITUIÇÃO | VICTOR FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/6UpUp3GBWTU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=6UpUp3GBWTU"
     }
   ],
-  "current_live_stream": {
-    "title": "PENTECOSTES O CÉU INVADINDO HOMENS COMUNS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/J41XUA33pes/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=J41XUA33pes"
-  }
+  "current_live_stream": null
 }
