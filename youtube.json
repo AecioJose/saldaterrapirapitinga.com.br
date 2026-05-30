@@ -1,7 +1,23 @@
 {
-  "ThursdaySeries": "todo mês uma nova série",
-  "last_updated": "2026-05-29T12:47:18.905281",
+  "ThursdaySeries": "culto série RESTITUIÇÃO",
+  "last_updated": "2026-05-30T04:52:05.094335",
   "latest_videos": [],
-  "latest_completed_live_streams": [],
+  "latest_completed_live_streams": [
+    {
+      "title": "RESTITUIÇÃO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/2cOX-mmrSsc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2cOX-mmrSsc"
+    },
+    {
+      "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
+    },
+    {
+      "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/bt_lTsIhHQA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=bt_lTsIhHQA"
+    }
+  ],
   "current_live_stream": null
 }
