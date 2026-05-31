@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-31T14:12:05.024698",
+  "last_updated": "2026-05-31T22:41:36.339610",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=bt_lTsIhHQA"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "PARA ONDE IREMOS| GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/HykITbb0Mus/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=HykITbb0Mus"
+  }
 }
