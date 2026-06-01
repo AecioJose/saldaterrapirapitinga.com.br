@@ -1,17 +1,17 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-05-31T23:39:57.814212",
+  "last_updated": "2026-06-01T05:29:16.019511",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "PARA ONDE IREMOS| GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/HykITbb0Mus/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=HykITbb0Mus"
+    },
     {
       "title": "RESTITUIÇÃO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/2cOX-mmrSsc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=2cOX-mmrSsc"
-    },
-    {
-      "title": "O CORAÇÃO DO ABBA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/3Dh2bCCrOk0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
     },
     {
       "title": "RESTITUIÇÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
@@ -19,9 +19,5 @@
       "url": "https://www.youtube.com/watch?v=bt_lTsIhHQA"
     }
   ],
-  "current_live_stream": {
-    "title": "PARA ONDE IREMOS| GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/HykITbb0Mus/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=HykITbb0Mus"
-  }
+  "current_live_stream": null
 }
