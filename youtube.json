@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série RESTITUIÇÃO",
-  "last_updated": "2026-06-07T14:20:46.037473",
+  "last_updated": "2026-06-07T22:47:00.808999",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=3Dh2bCCrOk0"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "ENVIA-ME A MIM O CHAMADO DE ISAÍAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/2TylG8AJK6M/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=2TylG8AJK6M"
+  }
 }
