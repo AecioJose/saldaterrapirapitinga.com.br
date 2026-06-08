@@ -1,27 +1,23 @@
 {
-  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-06-07T23:38:36.676236",
+  "ThursdaySeries": "culto série RESTITUIÇÃO",
+  "last_updated": "2026-06-08T05:17:30.239502",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
-      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
+      "title": "ENVIA-ME A MIM O CHAMADO DE ISAÍAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/2TylG8AJK6M/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=2TylG8AJK6M"
     },
     {
-      "title": "CULTO DA FAMÍLIA | MINISTRAÇÃO | LÚCIO CAMILLO | 19:00 | 11 DE JANEIRO DE 2026",
-      "thumbnail": "https://i.ytimg.com/vi/Pe__yUqVOBI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Pe__yUqVOBI"
+      "title": "PARA ONDE IREMOS| GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/HykITbb0Mus/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HykITbb0Mus"
     },
     {
-      "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
+      "title": "RESTITUIÇÃO | MICHEL NASCIMENTO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/2cOX-mmrSsc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=2cOX-mmrSsc"
     }
   ],
-  "current_live_stream": {
-    "title": "ENVIA-ME A MIM O CHAMADO DE ISAÍAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/2TylG8AJK6M/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=2TylG8AJK6M"
-  }
+  "current_live_stream": null
 }
