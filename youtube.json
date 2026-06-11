@@ -1,22 +1,22 @@
 {
-  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-06-10T12:57:05.375176",
+  "ThursdaySeries": "culto série APRENDA A SEGUIR EM FRENTE",
+  "last_updated": "2026-06-11T13:59:38.460055",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "APRENDA A SEGUIR EM FRENTE | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/7uDtLoZh-7U/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7uDtLoZh-7U"
+    },
     {
       "title": "ENVIA-ME A MIM O CHAMADO DE ISAÍAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/2TylG8AJK6M/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=2TylG8AJK6M"
     },
     {
-      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
-    },
-    {
-      "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
+      "title": "PARA ONDE IREMOS| GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/HykITbb0Mus/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HykITbb0Mus"
     }
   ],
   "current_live_stream": null
