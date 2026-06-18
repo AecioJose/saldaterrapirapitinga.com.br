@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série APRENDA A SEGUIR EM FRENTE",
-  "last_updated": "2026-06-17T13:41:11.201569",
+  "last_updated": "2026-06-18T12:53:45.324546",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "APRENDA A SEGUIR EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/LSFkwLmsRAw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=LSFkwLmsRAw"
+    },
     {
       "title": "O TAMBORIM DE MIRIÃ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/Kz8_HoyC2hs/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "APRENDA A SEGUIR EM FRENTE | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/7uDtLoZh-7U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=7uDtLoZh-7U"
-    },
-    {
-      "title": "ENVIA-ME A MIM O CHAMADO DE ISAÍAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/2TylG8AJK6M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=2TylG8AJK6M"
     }
   ],
   "current_live_stream": null
