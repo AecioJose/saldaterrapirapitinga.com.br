@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série APRENDA A SEGUIR EM FRENTE",
-  "last_updated": "2026-06-21T14:33:30.311315",
+  "last_updated": "2026-06-21T22:49:32.610064",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=7uDtLoZh-7U"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "VOCÊ NÃO NASCEU QUEBRADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/hdxrOrbkC7A/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=hdxrOrbkC7A"
+  }
 }
