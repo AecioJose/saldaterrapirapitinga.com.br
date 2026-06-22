@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série APRENDA A SEGUIR EM FRENTE",
-  "last_updated": "2026-06-21T23:52:42.396164",
+  "last_updated": "2026-06-22T06:10:57.996110",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "VOCÊ NÃO NASCEU QUEBRADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/hdxrOrbkC7A/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=hdxrOrbkC7A"
+    },
     {
       "title": "APRENDA A SEGUIR EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/LSFkwLmsRAw/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "O TAMBORIM DE MIRIÃ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/Kz8_HoyC2hs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Kz8_HoyC2hs"
-    },
-    {
-      "title": "APRENDA A SEGUIR EM FRENTE | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/7uDtLoZh-7U/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=7uDtLoZh-7U"
     }
   ],
-  "current_live_stream": {
-    "title": "VOCÊ NÃO NASCEU QUEBRADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/hdxrOrbkC7A/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=hdxrOrbkC7A"
-  }
+  "current_live_stream": null
 }
