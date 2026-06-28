@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série APRENDA A SEGUIR EM FRENTE",
-  "last_updated": "2026-06-28T14:16:50.472025",
+  "last_updated": "2026-06-28T22:44:16.452514",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=Kz8_HoyC2hs"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "PARA ONDE A GRAÇA NOS LEVA | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/EPqfr-N7tBE/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=EPqfr-N7tBE"
+  }
 }
