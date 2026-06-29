@@ -1,27 +1,23 @@
 {
-  "ThursdaySeries": "culto série APRENDA A SEGUIR EM FRENTE",
-  "last_updated": "2026-06-28T23:40:43.625860",
+  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
+  "last_updated": "2026-06-29T05:17:15.314886",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
-      "title": "VOCÊ NÃO NASCEU QUEBRADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/hdxrOrbkC7A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=hdxrOrbkC7A"
+      "title": "PARA ONDE A GRAÇA NOS LEVA | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/EPqfr-N7tBE/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=EPqfr-N7tBE"
     },
     {
-      "title": "APRENDA A SEGUIR EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/LSFkwLmsRAw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=LSFkwLmsRAw"
+      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
     },
     {
-      "title": "O TAMBORIM DE MIRIÃ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/Kz8_HoyC2hs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Kz8_HoyC2hs"
+      "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
     }
   ],
-  "current_live_stream": {
-    "title": "PARA ONDE A GRAÇA NOS LEVA | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/EPqfr-N7tBE/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=EPqfr-N7tBE"
-  }
+  "current_live_stream": null
 }
