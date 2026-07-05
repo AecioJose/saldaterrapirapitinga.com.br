@@ -1,22 +1,22 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-07-05T04:59:10.831113",
+  "last_updated": "2026-07-05T14:10:28.558344",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "SANTA CEIA DO SENHOR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/aoW8a2Bg94Y/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=aoW8a2Bg94Y"
+    },
     {
       "title": "QUANDO TUDO PARECE PERDIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/pJQSB3qw0xA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=pJQSB3qw0xA"
     },
     {
-      "title": "VOCÊ NÃO NASCEU QUEBRADO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/hdxrOrbkC7A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=hdxrOrbkC7A"
-    },
-    {
-      "title": "APRENDA A SEGUIR EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/LSFkwLmsRAw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=LSFkwLmsRAw"
+      "title": "PARA ONDE A GRAÇA NOS LEVA | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/EPqfr-N7tBE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=EPqfr-N7tBE"
     }
   ],
   "current_live_stream": null
