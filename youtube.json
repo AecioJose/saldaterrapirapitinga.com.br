@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-07-05T22:41:21.053037",
+  "last_updated": "2026-07-05T23:37:53.279197",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=EPqfr-N7tBE"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "SANTA CEIA DO SENHOR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/BBPMKENgnrM/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=BBPMKENgnrM"
+  }
 }
