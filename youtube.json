@@ -1,27 +1,23 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-07-05T23:37:53.279197",
+  "last_updated": "2026-07-06T04:58:19.767627",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "SANTA CEIA DO SENHOR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/aoW8a2Bg94Y/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/aoW8a2Bg94Y/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=aoW8a2Bg94Y"
+    },
+    {
+      "title": "SANTA CEIA DO SENHOR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/BBPMKENgnrM/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=BBPMKENgnrM"
     },
     {
       "title": "QUANDO TUDO PARECE PERDIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/pJQSB3qw0xA/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=pJQSB3qw0xA"
-    },
-    {
-      "title": "PARA ONDE A GRAÇA NOS LEVA | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/EPqfr-N7tBE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=EPqfr-N7tBE"
     }
   ],
-  "current_live_stream": {
-    "title": "SANTA CEIA DO SENHOR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/BBPMKENgnrM/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=BBPMKENgnrM"
-  }
+  "current_live_stream": null
 }
