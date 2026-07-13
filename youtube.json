@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-07-12T23:30:53.642208",
+  "last_updated": "2026-07-13T04:20:15.737952",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "OLHOS PARA VER E CORAÇÃO PARA SENTIR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/cdAvpVb_N0E/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=cdAvpVb_N0E"
+    },
     {
       "title": "QUANDO TUDO PARECE PERDIDO | RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/4NFzfj5EQrA/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "SANTA CEIA DO SENHOR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/aoW8a2Bg94Y/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=aoW8a2Bg94Y"
-    },
-    {
-      "title": "QUANDO TUDO PARECE PERDIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/pJQSB3qw0xA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pJQSB3qw0xA"
     }
   ],
-  "current_live_stream": {
-    "title": "OLHOS PARA VER E CORAÇÃO PARA SENTIR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/cdAvpVb_N0E/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=cdAvpVb_N0E"
-  }
+  "current_live_stream": null
 }
