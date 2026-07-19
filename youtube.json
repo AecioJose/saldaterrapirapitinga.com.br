@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-07-19T13:54:59.566120",
+  "last_updated": "2026-07-19T22:35:30.805491",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=aoW8a2Bg94Y"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "PROPOSTAS DE SATANÁS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/25hPI5GRGrI/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=25hPI5GRGrI"
+  }
 }
