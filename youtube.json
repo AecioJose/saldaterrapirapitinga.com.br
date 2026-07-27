@@ -1,27 +1,23 @@
 {
-  "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-07-26T23:32:07.871499",
+  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
+  "last_updated": "2026-07-27T04:26:22.333097",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
-      "title": "QUANDO TUDO PARECE PERDIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/ZvjG1-Tcy3c/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ZvjG1-Tcy3c"
+      "title": "APRENDENDO COM AS FASES DA VIDA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/MgL7CqMvIxU/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=MgL7CqMvIxU"
     },
     {
-      "title": "PROPOSTAS DE SATANÁS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/25hPI5GRGrI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=25hPI5GRGrI"
+      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
     },
     {
-      "title": "OLHOS PARA VER E CORAÇÃO PARA SENTIR | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/cdAvpVb_N0E/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=cdAvpVb_N0E"
+      "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
     }
   ],
-  "current_live_stream": {
-    "title": "APRENDENDO COM AS FASES DA VIDA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/MgL7CqMvIxU/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=MgL7CqMvIxU"
-  }
+  "current_live_stream": null
 }
