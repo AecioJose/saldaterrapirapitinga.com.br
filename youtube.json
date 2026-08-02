@@ -1,13 +1,8 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-08-02T04:24:49.219096",
+  "last_updated": "2026-08-02T13:57:31.221599",
   "latest_videos": [],
   "latest_completed_live_streams": [
-    {
-      "title": "QUANDO TUDO PARECE PERDIDO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/NVotg1BMdvw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NVotg1BMdvw"
-    },
     {
       "title": "APRENDENDO COM AS FASES DA VIDA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/MgL7CqMvIxU/hqdefault.jpg",
@@ -17,6 +12,11 @@
       "title": "QUANDO TUDO PARECE PERDIDO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/ZvjG1-Tcy3c/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ZvjG1-Tcy3c"
+    },
+    {
+      "title": "PROPOSTAS DE SATANÁS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/25hPI5GRGrI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=25hPI5GRGrI"
     }
   ],
   "current_live_stream": null
