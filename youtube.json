@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-08-02T13:57:31.221599",
+  "last_updated": "2026-08-02T22:39:50.097341",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=25hPI5GRGrI"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "AINDA NÃO TERMINOU | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/YpJ3O3Qx51Q/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=YpJ3O3Qx51Q"
+  }
 }
