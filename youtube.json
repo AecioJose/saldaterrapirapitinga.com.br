@@ -1,11 +1,11 @@
 {
-  "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-08-09T13:16:31.846565",
+  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
+  "last_updated": "2026-08-09T22:10:34.111596",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "CONFERÊNCIA NOVAMENTE | RAPHA SOARES | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/13sQvbeR_3o/hqdefault_live.jpg",
+      "thumbnail": "https://i.ytimg.com/vi/13sQvbeR_3o/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=13sQvbeR_3o"
     },
     {
@@ -14,10 +14,14 @@
       "url": "https://www.youtube.com/watch?v=YXeKOlaqWRE"
     },
     {
-      "title": "APRENDENDO COM AS FASES DA VIDA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/MgL7CqMvIxU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=MgL7CqMvIxU"
+      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A GLORIA DO PAI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/d21Ai2O3V-E/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=d21Ai2O3V-E"
+  }
 }
