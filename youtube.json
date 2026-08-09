@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2026-08-08T22:59:45.460628",
+  "last_updated": "2026-08-09T03:02:29.870815",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CONFERÊNCIA NOVAMENTE | RAPHA SOARES | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/13sQvbeR_3o/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=13sQvbeR_3o"
+    },
     {
       "title": "CONFERÊNCIA NOVAMENTE | GIOVANA CHARTRES | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/YXeKOlaqWRE/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O CORAÇÃO DO PAI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/8IZyJHq7R8I/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=8IZyJHq7R8I"
-    },
-    {
-      "title": "APRENDENDO COM AS FASES DA VIDA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/MgL7CqMvIxU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=MgL7CqMvIxU"
     }
   ],
   "current_live_stream": null
