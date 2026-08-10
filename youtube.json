@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série QUANDO TUDO PARECE PERDIDO",
-  "last_updated": "2026-08-09T23:01:55.580908",
+  "last_updated": "2026-08-10T02:57:15.564542",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "A GLORIA DO PAI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/d21Ai2O3V-E/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=d21Ai2O3V-E"
+    },
     {
       "title": "CONFERÊNCIA NOVAMENTE | RAPHA SOARES | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/13sQvbeR_3o/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "CONFERÊNCIA NOVAMENTE | GIOVANA CHARTRES | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/YXeKOlaqWRE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=YXeKOlaqWRE"
-    },
-    {
-      "title": "APRENDENDO COM AS FASES DA VIDA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/MgL7CqMvIxU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=MgL7CqMvIxU"
     }
   ],
-  "current_live_stream": {
-    "title": "A GLORIA DO PAI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/d21Ai2O3V-E/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=d21Ai2O3V-E"
-  }
+  "current_live_stream": null
 }
