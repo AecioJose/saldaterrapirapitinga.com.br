@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2026-08-16T21:57:07.096084",
+  "last_updated": "2026-08-16T22:50:06.002125",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=13sQvbeR_3o"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A GLÓRIA DO FILHO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/tsMmiBsOLKw/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=tsMmiBsOLKw"
+  }
 }
