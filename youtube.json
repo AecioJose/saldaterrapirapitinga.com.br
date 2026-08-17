@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2026-08-16T22:50:06.002125",
+  "last_updated": "2026-08-17T02:07:41.517156",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "A GLÓRIA DO FILHO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/tsMmiBsOLKw/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=tsMmiBsOLKw"
+    },
     {
       "title": "O CORAÇÃO DO PAI | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/PX2Xo7ctxBs/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "A GLORIA DO PAI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/d21Ai2O3V-E/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=d21Ai2O3V-E"
-    },
-    {
-      "title": "CONFERÊNCIA NOVAMENTE | RAPHA SOARES | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/13sQvbeR_3o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=13sQvbeR_3o"
     }
   ],
-  "current_live_stream": {
-    "title": "A GLÓRIA DO FILHO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/tsMmiBsOLKw/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=tsMmiBsOLKw"
-  }
+  "current_live_stream": null
 }
