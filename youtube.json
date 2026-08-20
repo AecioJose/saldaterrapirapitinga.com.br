@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2026-08-19T10:29:06.238432",
+  "last_updated": "2026-08-20T10:30:55.390804",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "O CORAÇÃO DO PAI | PB RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/wtqDkeb1BRQ/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=wtqDkeb1BRQ"
+    },
     {
       "title": "A GLÓRIA DO FILHO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/tsMmiBsOLKw/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O CORAÇÃO DO PAI | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/PX2Xo7ctxBs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=PX2Xo7ctxBs"
-    },
-    {
-      "title": "A GLORIA DO PAI | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/d21Ai2O3V-E/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=d21Ai2O3V-E"
     }
   ],
   "current_live_stream": null
