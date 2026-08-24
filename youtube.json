@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série O CORAÇÃO DO PAI",
-  "last_updated": "2026-08-23T22:51:34.706819",
+  "last_updated": "2026-08-24T02:10:45.734079",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "A GLÓRIA DO ESPÍRITO SANTO| LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/_TKP_XncnPE/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=_TKP_XncnPE"
+    },
     {
       "title": "O CORAÇÃO DO PAI | PB RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/wtqDkeb1BRQ/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "A GLÓRIA DO FILHO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/tsMmiBsOLKw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=tsMmiBsOLKw"
-    },
-    {
-      "title": "O CORAÇÃO DO PAI | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/PX2Xo7ctxBs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=PX2Xo7ctxBs"
     }
   ],
-  "current_live_stream": {
-    "title": "A GLÓRIA DO ESPÍRITO SANTO| LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/_TKP_XncnPE/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=_TKP_XncnPE"
-  }
+  "current_live_stream": null
 }
