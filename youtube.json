@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-09-06T23:12:32.050244",
+  "last_updated": "2026-09-07T00:16:41.674186",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CULTO DE CEIA | A PORTA DE FERRO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/t423s5_Ma0M/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=t423s5_Ma0M"
+    },
     {
       "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
@@ -12,16 +17,7 @@
       "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
-    },
-    {
-      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
-  "current_live_stream": {
-    "title": "CULTO DE CEIA | A PORTA DE FERRO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/t423s5_Ma0M/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=t423s5_Ma0M"
-  }
+  "current_live_stream": null
 }
