@@ -1,13 +1,8 @@
 {
-  "ThursdaySeries": "culto série VENCENDO AS TEMPESTADES DA VIDA",
-  "last_updated": "2026-09-13T05:45:31.687441",
+  "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
+  "last_updated": "2026-09-13T16:20:41.596775",
   "latest_videos": [],
   "latest_completed_live_streams": [
-    {
-      "title": "VENCENDO AS TEMPESTADES DA VIDA  | RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/CsPtna18xDc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=CsPtna18xDc"
-    },
     {
       "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
@@ -17,6 +12,11 @@
       "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
+    },
+    {
+      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
   "current_live_stream": null
