@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-09-13T16:20:41.596775",
+  "last_updated": "2026-09-13T23:35:05.529224",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A HUMILDADE DE CRISTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/Pp0qztzagfY/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=Pp0qztzagfY"
+  }
 }
