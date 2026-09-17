@@ -1,13 +1,8 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-09-16T14:40:17.865360",
+  "last_updated": "2026-09-17T14:44:04.522021",
   "latest_videos": [],
   "latest_completed_live_streams": [
-    {
-      "title": "A HUMILDADE DE CRISTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/Pp0qztzagfY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Pp0qztzagfY"
-    },
     {
       "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
@@ -17,6 +12,11 @@
       "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
+    },
+    {
+      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
   "current_live_stream": null
