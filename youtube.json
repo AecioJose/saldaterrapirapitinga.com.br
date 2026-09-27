@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série VIDA NO ESPÍRITO",
-  "last_updated": "2026-09-27T17:00:09.458837",
+  "last_updated": "2026-09-27T23:59:42.104210",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "QUEM TEMOS CONHECIDO? | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/7Z30Dh9_OoE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=7Z30Dh9_OoE"
+    },
     {
       "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
@@ -12,12 +17,11 @@
       "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
       "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
-    },
-    {
-      "title": "CONFERÊNCIA DE JOVENS ATOS NOW | SAL DA TERRA PIRAPITINGA | JOSÉ WELLIGNTON | 16 DE AGOSTO DE 2025",
-      "thumbnail": "https://i.ytimg.com/vi/GQpEtYn-SAM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GQpEtYn-SAM"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "A FONTE E O POÇO | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/ODWVf3VJZ5k/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=ODWVf3VJZ5k"
+  }
 }
