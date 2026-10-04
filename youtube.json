@@ -1,7 +1,13 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS TEMPESTADES DA VIDA",
-  "last_updated": "2026-10-04T06:40:27.482260",
-  "latest_videos": [],
+  "last_updated": "2026-10-04T16:51:57.682229",
+  "latest_videos": [
+    {
+      "title": "CAFÉ COM FÉ | EPISÓDIO 11 | PASTOR LÚCIO CAMILLO | 07H00",
+      "thumbnail": "https://i.ytimg.com/vi/llW9EZ0YsSg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=llW9EZ0YsSg"
+    }
+  ],
   "latest_completed_live_streams": [
     {
       "title": "VENCENDO AS TEMPESTADES DA VIDA | JOANA DARC  | PRESENÇA IGREJA CRISTÃ",
@@ -9,14 +15,14 @@
       "url": "https://www.youtube.com/watch?v=xRU9ZQrgro0"
     },
     {
-      "title": "A FONTE E O POÇO | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/ODWVf3VJZ5k/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ODWVf3VJZ5k"
+      "title": "VIDA NO ESPÍRITO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/KHK2b0uqmuA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=KHK2b0uqmuA"
     },
     {
-      "title": "VENCENDO AS TEMPESTADES DA VIDA | RAFAEL CAMARGOS | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/ptp-CDAeMZA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ptp-CDAeMZA"
+      "title": "O FOGO DE DEUS  | MINISTRAÇÃO | VICTOR FARIA | 19:30 | 13 DE NOVEMBRO DE 2025",
+      "thumbnail": "https://i.ytimg.com/vi/mRsYgeaYkeE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
     }
   ],
   "current_live_stream": null
