@@ -1,13 +1,7 @@
 {
   "ThursdaySeries": "culto série VENCENDO AS TEMPESTADES DA VIDA",
-  "last_updated": "2026-10-04T16:51:57.682229",
-  "latest_videos": [
-    {
-      "title": "CAFÉ COM FÉ | EPISÓDIO 11 | PASTOR LÚCIO CAMILLO | 07H00",
-      "thumbnail": "https://i.ytimg.com/vi/llW9EZ0YsSg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=llW9EZ0YsSg"
-    }
-  ],
+  "last_updated": "2026-10-05T00:12:08.101402",
+  "latest_videos": [],
   "latest_completed_live_streams": [
     {
       "title": "VENCENDO AS TEMPESTADES DA VIDA | JOANA DARC  | PRESENÇA IGREJA CRISTÃ",
@@ -25,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=mRsYgeaYkeE"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "O PERDÃO QUE FLUI DA CRUZ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/SHwr-gCFnLk/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=SHwr-gCFnLk"
+  }
 }
