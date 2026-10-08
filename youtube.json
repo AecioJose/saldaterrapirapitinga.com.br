@@ -1,8 +1,13 @@
 {
-  "ThursdaySeries": "culto série VENCENDO AS TEMPESTADES DA VIDA",
-  "last_updated": "2026-10-07T17:18:40.333965",
+  "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
+  "last_updated": "2026-10-08T17:14:20.687226",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "AS OBRAS DO ESPÍRITO SANTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/fAX15k8oeWc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fAX15k8oeWc"
+    },
     {
       "title": "O PERDÃO QUE FLUI DA CRUZ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/SHwr-gCFnLk/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "VENCENDO AS TEMPESTADES DA VIDA | JOANA DARC  | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/xRU9ZQrgro0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=xRU9ZQrgro0"
-    },
-    {
-      "title": "A FONTE E O POÇO | GILBERTO FARIA | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/ODWVf3VJZ5k/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ODWVf3VJZ5k"
     }
   ],
   "current_live_stream": null
