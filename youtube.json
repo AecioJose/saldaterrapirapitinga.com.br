@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
-  "last_updated": "2026-10-12T01:40:11.610287",
+  "last_updated": "2026-10-12T06:30:31.805325",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "FOME PELA PRESENÇA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/nVOcxvrthBw/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=nVOcxvrthBw"
+    },
     {
       "title": "AS OBRAS DO ESPÍRITO SANTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/fAX15k8oeWc/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "O PERDÃO QUE FLUI DA CRUZ | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/SHwr-gCFnLk/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=SHwr-gCFnLk"
-    },
-    {
-      "title": "VENCENDO AS TEMPESTADES DA VIDA | JOANA DARC  | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/xRU9ZQrgro0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=xRU9ZQrgro0"
     }
   ],
   "current_live_stream": {
