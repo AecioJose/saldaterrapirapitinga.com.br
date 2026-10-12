@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
-  "last_updated": "2026-10-11T17:41:48.336550",
+  "last_updated": "2026-10-12T00:44:24.444839",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=xRU9ZQrgro0"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "FOME PELA PRESENÇA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/nVOcxvrthBw/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=nVOcxvrthBw"
+  }
 }
