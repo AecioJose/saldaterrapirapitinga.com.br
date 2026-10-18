@@ -1,6 +1,6 @@
 {
   "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
-  "last_updated": "2026-10-18T05:32:33.309221",
+  "last_updated": "2026-10-18T15:54:11.443549",
   "latest_videos": [],
   "latest_completed_live_streams": [
     {
@@ -19,5 +19,9 @@
       "url": "https://www.youtube.com/watch?v=fAX15k8oeWc"
     }
   ],
-  "current_live_stream": null
+  "current_live_stream": {
+    "title": "CELEBRAÇÃO DE 13 ANOS BATISMO NAS ÁGUAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+    "thumbnail": "https://i.ytimg.com/vi/05yj59RZxxY/hqdefault_live.jpg",
+    "url": "https://www.youtube.com/watch?v=05yj59RZxxY"
+  }
 }
