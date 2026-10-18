@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
-  "last_updated": "2026-10-18T15:54:11.443549",
+  "last_updated": "2026-10-18T23:41:20.464935",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "13 ANOS VIVENDO A PRESENÇA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/v08UhQlF3oo/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=v08UhQlF3oo"
+    },
     {
       "title": "AS OBRAS DO ESPÍRITO SANTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/oMmXGJvHJRw/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "FOME PELA PRESENÇA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/nVOcxvrthBw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=nVOcxvrthBw"
-    },
-    {
-      "title": "AS OBRAS DO ESPÍRITO SANTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/fAX15k8oeWc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fAX15k8oeWc"
     }
   ],
   "current_live_stream": {
