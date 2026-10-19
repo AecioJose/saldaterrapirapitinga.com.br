@@ -1,27 +1,23 @@
 {
   "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
-  "last_updated": "2026-10-19T00:25:00.226207",
+  "last_updated": "2026-10-19T05:18:25.283796",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CELEBRAÇÃO DE 13 ANOS BATISMO NAS ÁGUAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/05yj59RZxxY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=05yj59RZxxY"
+    },
+    {
+      "title": "13 ANOS VIVENDO A PRESENÇA DE DEUS  | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/d1EaSFDZNhc/hqdefault_live.jpg",
+      "url": "https://www.youtube.com/watch?v=d1EaSFDZNhc"
+    },
     {
       "title": "13 ANOS VIVENDO A PRESENÇA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/v08UhQlF3oo/hqdefault_live.jpg",
       "url": "https://www.youtube.com/watch?v=v08UhQlF3oo"
-    },
-    {
-      "title": "AS OBRAS DO ESPÍRITO SANTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/oMmXGJvHJRw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=oMmXGJvHJRw"
-    },
-    {
-      "title": "FOME PELA PRESENÇA DE DEUS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/nVOcxvrthBw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=nVOcxvrthBw"
     }
   ],
-  "current_live_stream": {
-    "title": "CELEBRAÇÃO DE 13 ANOS BATISMO NAS ÁGUAS | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-    "thumbnail": "https://i.ytimg.com/vi/05yj59RZxxY/hqdefault_live.jpg",
-    "url": "https://www.youtube.com/watch?v=05yj59RZxxY"
-  }
+  "current_live_stream": null
 }
