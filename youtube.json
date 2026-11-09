@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série AS OBRAS DO ESPÍRITO SANTO",
-  "last_updated": "2026-11-08T17:56:37.156832",
+  "last_updated": "2026-11-09T01:13:54.990190",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "MANTENHA A CHAMA ACESSA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/VZyzlYV-PlI/hqdefault.jpg?v=6af0eebf",
+      "url": "https://www.youtube.com/watch?v=VZyzlYV-PlI"
+    },
     {
       "title": "AS OBRAS DO ESPÍRITO SANTO | RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/fVJov8OAwds/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "AS OBRAS DO ESPÍRITO SANTO | VANESSA TORQUATO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/uT4446lIzmo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=uT4446lIzmo"
-    },
-    {
-      "title": "13 ANOS VIVENDO A PRESENÇA DE DEUS  | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/d1EaSFDZNhc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=d1EaSFDZNhc"
     }
   ],
   "current_live_stream": null
