@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série SIGA EM FRENTE",
-  "last_updated": "2026-11-13T17:32:08.163086",
+  "last_updated": "2026-11-14T07:22:09.314388",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "CONFERÊNCIA UM NOVO TEMPO | JESSE AGUIAR | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/YOCB0_2Z_jw/hqdefault.jpg?v=6af78ce6",
+      "url": "https://www.youtube.com/watch?v=YOCB0_2Z_jw"
+    },
     {
       "title": "SIGA EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/_fMRlnu7soI/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "MANTENHA A CHAMA ACESSA | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/VZyzlYV-PlI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=VZyzlYV-PlI"
-    },
-    {
-      "title": "AS OBRAS DO ESPÍRITO SANTO | RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/fVJov8OAwds/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fVJov8OAwds"
     }
   ],
   "current_live_stream": null
