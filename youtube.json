@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série SIGA EM FRENTE",
-  "last_updated": "2026-11-22T19:44:14.361587",
+  "last_updated": "2026-11-23T01:59:18.989469",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "SÓ TENHO A CRISTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/DFDQn6N6kQg/hqdefault.jpg?v=6b0361e3",
+      "url": "https://www.youtube.com/watch?v=DFDQn6N6kQg"
+    },
     {
       "title": "SIGA EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/Yh2u8kD8zNI/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "QUANDO A ESPERA SE TORNA UMA PRISÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/jEy8wJzi5Tw/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=jEy8wJzi5Tw"
-    },
-    {
-      "title": "CONFERÊNCIA UM NOVO TEMPO | JESSE AGUIAR | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/YOCB0_2Z_jw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=YOCB0_2Z_jw"
     }
   ],
   "current_live_stream": null
