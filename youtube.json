@@ -1,8 +1,13 @@
 {
   "ThursdaySeries": "culto série SIGA EM FRENTE",
-  "last_updated": "2026-11-25T19:47:15.753589",
+  "last_updated": "2026-11-26T19:26:12.872280",
   "latest_videos": [],
   "latest_completed_live_streams": [
+    {
+      "title": "SIGA EM FRENTE | RENATO ORTIZ | PRESENÇA IGREJA CRISTÃ",
+      "thumbnail": "https://i.ytimg.com/vi/WBnUsIc-nSA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WBnUsIc-nSA"
+    },
     {
       "title": "SÓ TENHO A CRISTO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/DFDQn6N6kQg/hqdefault.jpg",
@@ -12,11 +17,6 @@
       "title": "SIGA EM FRENTE | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
       "thumbnail": "https://i.ytimg.com/vi/Yh2u8kD8zNI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Yh2u8kD8zNI"
-    },
-    {
-      "title": "QUANDO A ESPERA SE TORNA UMA PRISÃO | LÚCIO CAMILLO | PRESENÇA IGREJA CRISTÃ",
-      "thumbnail": "https://i.ytimg.com/vi/jEy8wJzi5Tw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=jEy8wJzi5Tw"
     }
   ],
   "current_live_stream": null
